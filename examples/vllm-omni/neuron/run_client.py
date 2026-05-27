@@ -65,7 +65,7 @@ def main():
     parser.add_argument("--steps", type=int, default=4)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--num-requests", type=int, default=3, help="Number of requests to send")
-    parser.add_argument("--output-dir", default="/tmp", help="Directory to save output images")
+    parser.add_argument("--output-dir", default=str(Path(__file__).parent / "outputs"), help="Directory to save output images")
     args = parser.parse_args()
 
     output_dir = Path(args.output_dir)
