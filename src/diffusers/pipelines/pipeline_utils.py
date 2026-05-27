@@ -63,6 +63,7 @@ from ..utils import (
     is_accelerate_version,
     is_bitsandbytes_version,
     is_hpu_available,
+    is_torch_neuronx_available,
     is_torch_npu_available,
     is_torch_version,
     is_transformers_version,
@@ -581,6 +582,14 @@ class DiffusionPipeline(ConfigMixin, PushToHubMixin):
                     " support for`float16` operations on this device in PyTorch. Please, remove the"
                     " `torch_dtype=torch.float16` argument, or use another device for inference."
                 )
+
+        # Neuron (XLA lazy execution) accumulates parameter-copy ops during .to(). Synchronizing
+        # flushes that graph so it compiles once here rather than on the first inference call,
+        # which would otherwise fail with NCC_IDRV017 under torch.inference_mode().
+        if device_type == "neuron" and is_torch_neuronx_available():
+            import torch_neuronx  # noqa: F401 — registers torch.neuron
+            torch.neuron.synchronize()
+
         return self
 
     @property
