@@ -1,0 +1,28 @@
+{
+ "pipeline": "HunyuanVideoImageToVideoPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.046214280009735376,
+ "tpu_first_call_s": 49.616344545036554,
+ "tpu_time_s": 0.10312423895811662,
+ "output_shape": [
+  1,
+  5,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.23702770471572876,
+ "mean_abs_diff": 0.021363846957683563,
+ "ref_max_abs": 1.0,
+ "reason": "output differs from CPU beyond atol=rtol=0.1",
+ "status": "fail",
+ "id": "tests.pipelines.hunyuan_video.test_hunyuan_image2video::HunyuanVideoImageToVideoPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 63.01280831202166,
+ "family": "hunyuan_video",
+ "log": "logs/smoke/eager/hunyuan_video_test_hunyuan_image2video__HunyuanVideoImageToVideoPipelineTesterConfig.log",
+ "chip": 2,
+ "job_wall_s": 70.3418139310088
+}

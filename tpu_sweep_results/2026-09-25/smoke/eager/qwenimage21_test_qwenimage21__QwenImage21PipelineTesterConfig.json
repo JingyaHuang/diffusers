@@ -1,0 +1,26 @@
+{
+ "pipeline": "QwenImage21Pipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.02866832900326699,
+ "tpu_first_call_s": 13.212397245981265,
+ "tpu_time_s": 0.5963182029663585,
+ "output_shape": [
+  1,
+  4,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.007813692092895508,
+ "mean_abs_diff": 0.0007773179095238447,
+ "ref_max_abs": 0.9754244089126587,
+ "status": "pass",
+ "id": "tests.pipelines.qwenimage21.test_qwenimage21::QwenImage21PipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 22.885139297985006,
+ "family": "qwenimage21",
+ "log": "logs/smoke/eager/qwenimage21_test_qwenimage21__QwenImage21PipelineTesterConfig.log",
+ "chip": 0,
+ "job_wall_s": 27.692664097994566
+}

@@ -1,0 +1,26 @@
+{
+ "pipeline": "VisualClozePipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.0765694190049544,
+ "tpu_first_call_s": 2.9532730570062995,
+ "tpu_time_s": 0.14969690097495914,
+ "output_shape": [
+  1,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.005981862545013428,
+ "mean_abs_diff": 0.0008967508911155164,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.visualcloze.test_pipeline_visualcloze_combined::TestVisualClozePipeline",
+ "mode": "eager",
+ "wall_s": 14.710002281004563,
+ "family": "visualcloze",
+ "log": "logs/smoke/eager/visualcloze_test_pipeline_visualcloze_combined__TestVisualClozePipeline.log",
+ "chip": 5,
+ "job_wall_s": 21.282514883961994
+}

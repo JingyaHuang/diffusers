@@ -1,0 +1,32 @@
+{
+ "pipeline": "SanaVideoPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.06335580901941285,
+ "compiled": [
+  "vae.decode/encode",
+  "transformer"
+ ],
+ "tpu_first_call_s": 11.498617278994061,
+ "tpu_time_s": 0.040561498957686126,
+ "output_shape": [
+  1,
+  9,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.2573102116584778,
+ "mean_abs_diff": 0.020961042493581772,
+ "ref_max_abs": 0.8460521101951599,
+ "reason": "output differs from CPU beyond atol=rtol=0.1",
+ "status": "fail",
+ "id": "tests.pipelines.sana_video.test_sana_video::SanaVideoPipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 23.47705720498925,
+ "family": "sana_video",
+ "log": "logs/smoke/compile/sana_video_test_sana_video__SanaVideoPipelineTesterConfig.log",
+ "chip": 5,
+ "job_wall_s": 27.495476392970886
+}

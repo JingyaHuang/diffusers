@@ -1,0 +1,26 @@
+{
+ "pipeline": "StableDiffusionXLPAGInpaintPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.20123793801758438,
+ "tpu_first_call_s": 3.846544335014187,
+ "tpu_time_s": 0.11126556899398565,
+ "output_shape": [
+  1,
+  3,
+  64,
+  64
+ ],
+ "finite": true,
+ "max_abs_diff": 0.013949811458587646,
+ "mean_abs_diff": 0.0013597822980955243,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.pag.test_pag_sdxl_inpaint::StableDiffusionXLPAGInpaintPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 15.895067553967237,
+ "family": "pag",
+ "log": "logs/smoke/eager/pag_test_pag_sdxl_inpaint__StableDiffusionXLPAGInpaintPipelineTesterConfig.log",
+ "chip": 4,
+ "job_wall_s": 21.861310888954904
+}

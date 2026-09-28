@@ -1,0 +1,35 @@
+{
+ "pipeline": "LTX2ImageToVideoPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.06509656895650551,
+ "compiled": [
+  "vae.decode/encode",
+  "audio_vae",
+  "connectors",
+  "transformer",
+  "vocoder"
+ ],
+ "tpu_first_call_s": 19.777838963025715,
+ "tpu_time_s": 0.0890025090193376,
+ "output_shape": [
+  1,
+  5,
+  3,
+  32,
+  32
+ ],
+ "finite": false,
+ "max_abs_diff": null,
+ "mean_abs_diff": null,
+ "ref_max_abs": 1.0,
+ "reason": "TPU output contains non-finite values",
+ "status": "fail",
+ "id": "tests.pipelines.ltx2.test_ltx2_image2video::LTX2ImageToVideoPipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 31.490927050006576,
+ "family": "ltx2",
+ "log": "logs/smoke/compile/ltx2_test_ltx2_image2video__LTX2ImageToVideoPipelineTesterConfig.log",
+ "chip": 3,
+ "job_wall_s": 37.845871838973835
+}

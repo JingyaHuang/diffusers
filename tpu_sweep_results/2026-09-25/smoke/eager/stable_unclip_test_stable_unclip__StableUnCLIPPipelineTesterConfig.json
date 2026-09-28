@@ -1,0 +1,26 @@
+{
+ "pipeline": "StableUnCLIPPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.12204206798924133,
+ "tpu_first_call_s": 5.58432443800848,
+ "tpu_time_s": 0.11260723299346864,
+ "output_shape": [
+  1,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.0316120982170105,
+ "mean_abs_diff": 0.004674162250012159,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.stable_unclip.test_stable_unclip::StableUnCLIPPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 15.679755537013989,
+ "family": "stable_unclip",
+ "log": "logs/smoke/eager/stable_unclip_test_stable_unclip__StableUnCLIPPipelineTesterConfig.log",
+ "chip": 1,
+ "job_wall_s": 21.86612718499964
+}

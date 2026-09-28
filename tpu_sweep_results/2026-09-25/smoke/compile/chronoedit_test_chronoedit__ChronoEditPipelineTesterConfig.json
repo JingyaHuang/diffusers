@@ -1,0 +1,31 @@
+{
+ "pipeline": "ChronoEditPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.067251569009386,
+ "compiled": [
+  "vae.decode/encode",
+  "transformer"
+ ],
+ "tpu_first_call_s": 16.1892923770356,
+ "tpu_time_s": 0.041545828978996724,
+ "output_shape": [
+  1,
+  5,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.0055863261222839355,
+ "mean_abs_diff": 0.0003408848133403808,
+ "ref_max_abs": 0.7320854663848877,
+ "status": "pass",
+ "id": "tests.pipelines.chronoedit.test_chronoedit::ChronoEditPipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 23.047608182008844,
+ "family": "chronoedit",
+ "log": "logs/smoke/compile/chronoedit_test_chronoedit__ChronoEditPipelineTesterConfig.log",
+ "chip": 1,
+ "job_wall_s": 28.482297829003073
+}

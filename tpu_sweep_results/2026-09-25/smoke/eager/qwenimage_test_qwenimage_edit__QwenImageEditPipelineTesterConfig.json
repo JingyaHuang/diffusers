@@ -1,0 +1,26 @@
+{
+ "pipeline": "QwenImageEditPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 4.092143298010342,
+ "tpu_first_call_s": 27.226101082982495,
+ "tpu_time_s": 0.3374953999882564,
+ "output_shape": [
+  1,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.003687262535095215,
+ "mean_abs_diff": 0.0006904832553118467,
+ "ref_max_abs": 0.7824763059616089,
+ "status": "pass",
+ "id": "tests.pipelines.qwenimage.test_qwenimage_edit::QwenImageEditPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 51.51738087902777,
+ "family": "qwenimage",
+ "log": "logs/smoke/eager/qwenimage_test_qwenimage_edit__QwenImageEditPipelineTesterConfig.log",
+ "chip": 1,
+ "job_wall_s": 58.48775776999537
+}

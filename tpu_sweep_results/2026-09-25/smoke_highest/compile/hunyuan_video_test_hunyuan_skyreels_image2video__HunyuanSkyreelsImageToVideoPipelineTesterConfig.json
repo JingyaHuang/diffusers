@@ -1,0 +1,33 @@
+{
+ "pipeline": "HunyuanSkyreelsImageToVideoPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "matmul_precision": "highest",
+ "cpu_time_s": 0.04110912000760436,
+ "compiled": [
+  "vae.decode/encode",
+  "transformer"
+ ],
+ "tpu_first_call_s": 7.0488595080096275,
+ "tpu_time_s": 0.031007618992589414,
+ "output_shape": [
+  1,
+  9,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.28201067447662354,
+ "mean_abs_diff": 0.047275375574827194,
+ "ref_max_abs": 1.0,
+ "reason": "output differs from CPU beyond atol=rtol=0.1",
+ "status": "fail",
+ "id": "tests.pipelines.hunyuan_video.test_hunyuan_skyreels_image2video::HunyuanSkyreelsImageToVideoPipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 14.631922647997271,
+ "family": "hunyuan_video",
+ "log": "logs/smoke_highest/compile/hunyuan_video_test_hunyuan_skyreels_image2video__HunyuanSkyreelsImageToVideoPipelineTesterConfig.log",
+ "chip": 4,
+ "job_wall_s": 20.642181350965984
+}

@@ -1,0 +1,27 @@
+{
+ "pipeline": "SkyReelsV2DiffusionForcingImageToVideoPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.07901228900300339,
+ "tpu_first_call_s": 3.799202435009647,
+ "tpu_time_s": 0.1888752380036749,
+ "output_shape": [
+  1,
+  9,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.11110028624534607,
+ "mean_abs_diff": 0.001530462526716292,
+ "ref_max_abs": 0.9163578748703003,
+ "status": "pass",
+ "id": "tests.pipelines.skyreels_v2.test_skyreels_v2_df_image_to_video::SkyReelsV2DiffusionForcingImageToVideoWithLastImagePipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 15.769926183042116,
+ "family": "skyreels_v2",
+ "log": "logs/smoke/eager/skyreels_v2_test_skyreels_v2_df_image_to_video__SkyReelsV2DiffusionForcingImageToVideoWithLastImagePipelineTesterConfig.log",
+ "chip": 7,
+ "job_wall_s": 22.53777967300266
+}

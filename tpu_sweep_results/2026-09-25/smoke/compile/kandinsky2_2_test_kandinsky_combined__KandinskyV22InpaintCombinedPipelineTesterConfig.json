@@ -1,0 +1,42 @@
+{
+ "pipeline": "KandinskyV22InpaintCombinedPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.18014309700811282,
+ "compiled": [
+  "unet",
+  "movq",
+  "prior_prior"
+ ],
+ "status": "error",
+ "stage": "tpu_first_call",
+ "error": "FailOnRecompileLimitHit: Hard failure due to fullgraph=True",
+ "trace": "Traceback (most recent call last):\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/_dynamo/convert_frame.py\", line 2024, in _compile\n    raise_unimplemented_cache_limit_exceeded()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/_dynamo/convert_frame.py\", line 2008, in raise_unimplemented_cache_limit_exceeded\n    unimplemented(\n    ~~~~~~~~~~~~~^\n        gb_type=\"Dynamo recompile limit exceeded\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<10 lines>...\n        ],\n        ^^\n    )\n    ^\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/_dynamo/exc.py\", line 727, in unimplemented\n    raise Unsupported(msg, gb_type, skip_frame)\ntorch._dynamo.exc.Unsupported: Dynamo recompile limit exceeded\n  Explanation: Dynamo attempted to recompile the code object too many times, exceeding the recompile_limit cache size limit (currently set to 8). Excessive recompilations can degrade performance due to the compilation overhead of each recompilation.\n  Hint: To monitor recompilations, enable TORCH_LOGS=recompiles. If recompilations are expected, consider increasing torch._dynamo.config.recompile_limit to an appropriate value.\n  Hint: See https://docs.pytorch.org/docs/main/user_guide/torch_compiler/compile/programming_model.recompilation.html for tips on dealing with recompilations.\n\n  Developer debug context: Limit type: recompile_limit\n\n For more details about this graph break, please visit: https://meta-pytorch.github.io/compile-graph-break-site/gb/gb0039.html\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/mnt/cache/jingya/dev/diffusers/utils/tpu_sweep/smoke_worker.py\", line 164, in smoke\n    _, record[\"tpu_first_call_s\"] = run(tpu_pipe, config)\n                                    ~~~^^^^^^^^^^^^^^^^^^\n  File \"/mnt/cache/jingya/dev/diffusers/utils/tpu_sweep/smoke_worker.py\", line 62, in run\n    output = to_tensor(pipe(**inputs)[0])\n                       ~~~~^^^^^^^^^^\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/utils/_contextlib.py\", line 124, in decorate_context\n    return func(*args, **kwargs)\n  File \"/mnt/cache/jingya/dev/diffusers/src/diffusers/pipelines/kandinsky2_2/pipeline_kandinsky2_2_combined.py\", line 821, in __call__\n    prior_outputs = self.prior_pipe(\n        prompt=prompt,\n    ...<10 lines>...\n        **prior_kwargs,\n    )\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/utils/_contextlib.py\", line 124, in decorate_context\n    return func(*args, **kwargs)\n  File \"/mnt/cache/jingya/dev/diffusers/src/diffusers/pipelines/kandinsky2_2/pipeline_kandinsky2_2_prior.py\", line 492, in __call__\n    predicted_image_embedding = self.prior(\n                                ~~~~~~~~~~^\n        latent_model_input,\n        ^^^^^^^^^^^^^^^^^^^\n    ...<3 lines>...\n        attention_mask=text_mask,\n        ^^^^^^^^^^^^^^^^^^^^^^^^^\n    ).predicted_image_embedding\n    ^\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/nn/modules/module.py\", line 1776, in _wrapped_call_impl\n    return self._compiled_call_impl(*args, **kwargs)  # type: ignore[misc]\n           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/_dynamo/eval_frame.py\", line 1166, in compile_wrapper\n    result = fn(*args, **kwargs)\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/nn/modules/module.py\", line 1789, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/_dynamo/convert_frame.py\", line 2628, in __call__\n    result = self._torchdynamo_orig_backend(\n        frame, cache_entry, self.hooks, frame_state, skip=1\n    )\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/_dynamo/convert_frame.py\", line 777, in __call__\n    result = _compile(\n        frame.f_code,\n    ...<18 lines>...\n        convert_frame_box=self._box,\n    )\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/_dynamo/convert_frame.py\", line 2031, in _compile\n    raise FailOnRecompileLimitHit(\n        \"Hard failure due to fullgraph=True\"\n    ) from e\ntorch._dynamo.exc.FailOnRecompileLimitHit: Hard failure due to fullgraph=True\n",
+ "per_component": {
+  "unet": {
+   "fullgraph": "error",
+   "fullgraph_error": "RuntimeError: view(): cannot create a view of shape [1, 8, 8192] from the input tensor of shape [1, 64, 32, 32] and strides [65536, 1, 2048, 64]; consider creating a new tensor using reshape() instead of taking a view",
+   "graph_breaks_allowed": "error",
+   "graph_breaks_allowed_error": "RuntimeError: view(): cannot create a view of shape [1, 8, 8192] from the input tensor of shape [1, 64, 32, 32] and strides [65536, 1, 2048, 64]; consider creating a new tensor using reshape() instead of taking a view"
+  },
+  "movq": {
+   "fullgraph": "error",
+   "fullgraph_error": "RuntimeError: view(): cannot create a view of shape [1, 8, 8192] from the input tensor of shape [1, 64, 32, 32] and strides [65536, 1, 2048, 64]; consider creating a new tensor using reshape() instead of taking a view",
+   "graph_breaks_allowed": "error",
+   "graph_breaks_allowed_error": "RuntimeError: view(): cannot create a view of shape [1, 8, 8192] from the input tensor of shape [1, 64, 32, 32] and strides [65536, 1, 2048, 64]; consider creating a new tensor using reshape() instead of taking a view"
+  },
+  "prior_prior": {
+   "fullgraph": "error",
+   "fullgraph_error": "FailOnRecompileLimitHit: Hard failure due to fullgraph=True",
+   "graph_breaks_allowed": "error",
+   "graph_breaks_allowed_error": "RuntimeError: view(): cannot create a view of shape [1, 8, 8192] from the input tensor of shape [1, 64, 32, 32] and strides [65536, 1, 2048, 64]; consider creating a new tensor using reshape() instead of taking a view"
+  }
+ },
+ "id": "tests.pipelines.kandinsky2_2.test_kandinsky_combined::KandinskyV22InpaintCombinedPipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 34.88140193000436,
+ "family": "kandinsky2_2",
+ "log": "logs/smoke/compile/kandinsky2_2_test_kandinsky_combined__KandinskyV22InpaintCombinedPipelineTesterConfig.log",
+ "chip": 4,
+ "job_wall_s": 39.327922072960064
+}

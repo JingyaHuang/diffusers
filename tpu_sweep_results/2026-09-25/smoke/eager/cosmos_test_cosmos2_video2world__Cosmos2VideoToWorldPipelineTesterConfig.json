@@ -1,0 +1,27 @@
+{
+ "pipeline": "Cosmos2VideoToWorldPipelineWrapper",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.08927526703337207,
+ "tpu_first_call_s": 5.92067969602067,
+ "tpu_time_s": 0.2585639149765484,
+ "output_shape": [
+  1,
+  9,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.06666666269302368,
+ "mean_abs_diff": 0.0011471951147541404,
+ "ref_max_abs": 0.7411764860153198,
+ "status": "pass",
+ "id": "tests.pipelines.cosmos.test_cosmos2_video2world::Cosmos2VideoToWorldPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 18.237001140019856,
+ "family": "cosmos",
+ "log": "logs/smoke/eager/cosmos_test_cosmos2_video2world__Cosmos2VideoToWorldPipelineTesterConfig.log",
+ "chip": 2,
+ "job_wall_s": 26.754519118985627
+}

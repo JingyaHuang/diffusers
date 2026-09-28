@@ -1,0 +1,30 @@
+{
+ "pipeline": "BriaFiboPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.24494110594969243,
+ "compiled": [
+  "vae.decode/encode",
+  "transformer"
+ ],
+ "tpu_first_call_s": 18.698645297030453,
+ "tpu_time_s": 0.03705741901649162,
+ "output_shape": [
+  1,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.037861168384552,
+ "mean_abs_diff": 0.008871645666658878,
+ "ref_max_abs": 0.8574960827827454,
+ "status": "pass",
+ "id": "tests.pipelines.bria_fibo.test_pipeline_bria_fibo::BriaFiboPipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 32.88297147798585,
+ "family": "bria_fibo",
+ "log": "logs/smoke/compile/bria_fibo_test_pipeline_bria_fibo__BriaFiboPipelineTesterConfig.log",
+ "chip": 2,
+ "job_wall_s": 37.13311190495733
+}

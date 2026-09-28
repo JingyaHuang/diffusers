@@ -1,0 +1,26 @@
+{
+ "pipeline": "StableAudioPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "matmul_precision": "default",
+ "cpu_time_s": 0.03321878000861034,
+ "tpu_first_call_s": 1.7168189359945245,
+ "tpu_time_s": 0.06565558898728341,
+ "output_shape": [
+  1,
+  2,
+  7
+ ],
+ "finite": true,
+ "max_abs_diff": 0.07961833477020264,
+ "mean_abs_diff": 0.03139873594045639,
+ "ref_max_abs": 0.5119786262512207,
+ "status": "pass",
+ "id": "tests.pipelines.stable_audio.test_stable_audio::StableAudioPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 17.675432913994882,
+ "family": "stable_audio",
+ "log": "logs/smoke/eager/stable_audio_test_stable_audio__StableAudioPipelineTesterConfig.log",
+ "chip": 0,
+ "job_wall_s": 21.664224945998285
+}

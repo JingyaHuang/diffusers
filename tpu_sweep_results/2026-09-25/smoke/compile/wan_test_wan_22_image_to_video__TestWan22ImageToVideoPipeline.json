@@ -1,0 +1,32 @@
+{
+ "pipeline": "WanImageToVideoPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.08255217800615355,
+ "compiled": [
+  "vae.decode/encode",
+  "transformer",
+  "transformer_2"
+ ],
+ "tpu_first_call_s": 17.73079439101275,
+ "tpu_time_s": 0.04890350898494944,
+ "output_shape": [
+  1,
+  9,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.05564069747924805,
+ "mean_abs_diff": 0.0017542639980092645,
+ "ref_max_abs": 0.7440466284751892,
+ "status": "pass",
+ "id": "tests.pipelines.wan.test_wan_22_image_to_video::TestWan22ImageToVideoPipeline",
+ "mode": "compile",
+ "wall_s": 24.974580429960042,
+ "family": "wan",
+ "log": "logs/smoke/compile/wan_test_wan_22_image_to_video__TestWan22ImageToVideoPipeline.log",
+ "chip": 4,
+ "job_wall_s": 29.601450104964897
+}

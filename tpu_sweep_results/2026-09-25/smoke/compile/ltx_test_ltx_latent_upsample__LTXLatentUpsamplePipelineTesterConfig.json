@@ -1,0 +1,31 @@
+{
+ "pipeline": "LTXLatentUpsamplePipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.019074269977863878,
+ "compiled": [
+  "vae.decode/encode",
+  "latent_upsampler"
+ ],
+ "tpu_first_call_s": 9.882689060992561,
+ "tpu_time_s": 0.006941570027265698,
+ "output_shape": [
+  1,
+  5,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.015376448631286621,
+ "mean_abs_diff": 0.0021482561714947224,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.ltx.test_ltx_latent_upsample::LTXLatentUpsamplePipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 16.731923524988815,
+ "family": "ltx",
+ "log": "logs/smoke/compile/ltx_test_ltx_latent_upsample__LTXLatentUpsamplePipelineTesterConfig.log",
+ "chip": 0,
+ "job_wall_s": 22.150609183998313
+}

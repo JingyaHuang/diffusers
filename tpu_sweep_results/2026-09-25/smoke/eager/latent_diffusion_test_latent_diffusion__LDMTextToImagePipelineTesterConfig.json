@@ -1,0 +1,26 @@
+{
+ "pipeline": "LDMTextToImagePipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.08017815899802372,
+ "tpu_first_call_s": 1.3840592289925553,
+ "tpu_time_s": 0.10366537899244577,
+ "output_shape": [
+  1,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.009053736925125122,
+ "mean_abs_diff": 0.0014161091530695558,
+ "ref_max_abs": 0.9786624908447266,
+ "status": "pass",
+ "id": "tests.pipelines.latent_diffusion.test_latent_diffusion::LDMTextToImagePipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 14.381421203026548,
+ "family": "latent_diffusion",
+ "log": "logs/smoke/eager/latent_diffusion_test_latent_diffusion__LDMTextToImagePipelineTesterConfig.log",
+ "chip": 4,
+ "job_wall_s": 21.314250275027007
+}

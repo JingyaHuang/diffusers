@@ -1,0 +1,26 @@
+{
+ "pipeline": "StableDiffusionPAGPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.848027941014152,
+ "tpu_first_call_s": 2.93283386802068,
+ "tpu_time_s": 0.60620460199425,
+ "output_shape": [
+  1,
+  3,
+  64,
+  64
+ ],
+ "finite": true,
+ "max_abs_diff": 0.009108424186706543,
+ "mean_abs_diff": 0.0010972183663398027,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.pag.test_pag_sd::StableDiffusionPAGPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 13.003961463982705,
+ "family": "pag",
+ "log": "logs/smoke/eager/pag_test_pag_sd__StableDiffusionPAGPipelineTesterConfig.log",
+ "chip": 4,
+ "job_wall_s": 19.09198639995884
+}

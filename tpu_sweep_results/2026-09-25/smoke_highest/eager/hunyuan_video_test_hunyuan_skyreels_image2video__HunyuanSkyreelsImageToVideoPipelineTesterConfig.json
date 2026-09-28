@@ -1,0 +1,28 @@
+{
+ "pipeline": "HunyuanSkyreelsImageToVideoPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "matmul_precision": "highest",
+ "cpu_time_s": 0.04222049895906821,
+ "tpu_first_call_s": 11.811887048999779,
+ "tpu_time_s": 0.10461173899238929,
+ "output_shape": [
+  1,
+  9,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.060874760150909424,
+ "mean_abs_diff": 0.008630703203380108,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.hunyuan_video.test_hunyuan_skyreels_image2video::HunyuanSkyreelsImageToVideoPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 22.857358838024084,
+ "family": "hunyuan_video",
+ "log": "logs/smoke_highest/eager/hunyuan_video_test_hunyuan_skyreels_image2video__HunyuanSkyreelsImageToVideoPipelineTesterConfig.log",
+ "chip": 4,
+ "job_wall_s": 26.994280661980156
+}

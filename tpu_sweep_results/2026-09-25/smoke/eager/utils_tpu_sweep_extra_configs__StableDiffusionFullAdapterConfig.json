@@ -1,0 +1,27 @@
+{
+ "pipeline": "StableDiffusionAdapterPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "matmul_precision": "default",
+ "cpu_time_s": 0.2193529150008544,
+ "tpu_first_call_s": 4.9347315239992895,
+ "tpu_time_s": 0.16703964299995278,
+ "output_shape": [
+  1,
+  64,
+  64,
+  3
+ ],
+ "finite": true,
+ "max_abs_diff": 0.007512867450714111,
+ "mean_abs_diff": 0.001236236304976046,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "utils.tpu_sweep.extra_configs::StableDiffusionFullAdapterConfig",
+ "mode": "eager",
+ "wall_s": 16.932932267998694,
+ "family": "stable_diffusion_adapter",
+ "log": "logs/smoke/eager/utils_tpu_sweep_extra_configs__StableDiffusionFullAdapterConfig.log",
+ "chip": 0,
+ "job_wall_s": 23.656644100999983
+}

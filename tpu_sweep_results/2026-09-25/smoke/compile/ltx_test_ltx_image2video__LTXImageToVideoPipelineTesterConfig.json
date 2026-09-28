@@ -1,0 +1,31 @@
+{
+ "pipeline": "LTXImageToVideoPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.04477437899913639,
+ "compiled": [
+  "vae.decode/encode",
+  "transformer"
+ ],
+ "tpu_first_call_s": 8.068178565998096,
+ "tpu_time_s": 0.029705620021559298,
+ "output_shape": [
+  1,
+  9,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.00752413272857666,
+ "mean_abs_diff": 0.0010358160361647606,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.ltx.test_ltx_image2video::LTXImageToVideoPipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 17.72260700102197,
+ "family": "ltx",
+ "log": "logs/smoke/compile/ltx_test_ltx_image2video__LTXImageToVideoPipelineTesterConfig.log",
+ "chip": 3,
+ "job_wall_s": 23.077130264020525
+}

@@ -1,0 +1,26 @@
+{
+ "pipeline": "StableDiffusion3InpaintPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 37.242188117990736,
+ "tpu_first_call_s": 3.2319684130488895,
+ "tpu_time_s": 0.09168299898738042,
+ "output_shape": [
+  1,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.009151697158813477,
+ "mean_abs_diff": 0.0011175848776474595,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.stable_diffusion_3.test_pipeline_stable_diffusion_3_inpaint::StableDiffusion3InpaintPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 51.70581024995772,
+ "family": "stable_diffusion_3",
+ "log": "logs/smoke/eager/stable_diffusion_3_test_pipeline_stable_diffusion_3_inpaint__StableDiffusion3InpaintPipelineTesterConfig.log",
+ "chip": 1,
+ "job_wall_s": 55.665833795035724
+}

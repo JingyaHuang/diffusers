@@ -1,0 +1,31 @@
+{
+ "pipeline": "CogVideoXVideoToVideoPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.04863260901765898,
+ "compiled": [
+  "vae.decode/encode",
+  "transformer"
+ ],
+ "tpu_first_call_s": 10.387558680027723,
+ "tpu_time_s": 0.03339116903953254,
+ "output_shape": [
+  1,
+  8,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.0029203295707702637,
+ "mean_abs_diff": 0.00028496954473666847,
+ "ref_max_abs": 0.8687259554862976,
+ "status": "pass",
+ "id": "tests.pipelines.cogvideo.test_cogvideox_video2video::CogVideoXVideoToVideoPipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 19.45140784996329,
+ "family": "cogvideo",
+ "log": "logs/smoke/compile/cogvideo_test_cogvideox_video2video__CogVideoXVideoToVideoPipelineTesterConfig.log",
+ "chip": 4,
+ "job_wall_s": 23.49872642097762
+}

@@ -1,0 +1,27 @@
+{
+ "pipeline": "WanPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.0527476150309667,
+ "tpu_first_call_s": 3.1605863139848225,
+ "tpu_time_s": 0.10434111801441759,
+ "output_shape": [
+  1,
+  9,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.05629605054855347,
+ "mean_abs_diff": 0.0010891163256019354,
+ "ref_max_abs": 0.7340729236602783,
+ "status": "pass",
+ "id": "tests.pipelines.wan.test_wan_22::TestWan22Pipeline",
+ "mode": "eager",
+ "wall_s": 13.43316345999483,
+ "family": "wan",
+ "log": "logs/smoke/eager/wan_test_wan_22__TestWan22Pipeline.log",
+ "chip": 3,
+ "job_wall_s": 18.64262473100098
+}

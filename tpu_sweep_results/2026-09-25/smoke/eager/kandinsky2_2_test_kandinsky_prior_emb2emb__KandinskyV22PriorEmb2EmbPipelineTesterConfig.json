@@ -1,0 +1,24 @@
+{
+ "pipeline": "KandinskyV22PriorEmb2EmbPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.037967449985444546,
+ "tpu_first_call_s": 1.049219184962567,
+ "tpu_time_s": 0.05327962897717953,
+ "output_shape": [
+  1,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.01368771679699421,
+ "mean_abs_diff": 0.005534681491553783,
+ "ref_max_abs": 1.5705413818359375,
+ "status": "pass",
+ "id": "tests.pipelines.kandinsky2_2.test_kandinsky_prior_emb2emb::KandinskyV22PriorEmb2EmbPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 12.42208973201923,
+ "family": "kandinsky2_2",
+ "log": "logs/smoke/eager/kandinsky2_2_test_kandinsky_prior_emb2emb__KandinskyV22PriorEmb2EmbPipelineTesterConfig.log",
+ "chip": 6,
+ "job_wall_s": 19.358270339958835
+}

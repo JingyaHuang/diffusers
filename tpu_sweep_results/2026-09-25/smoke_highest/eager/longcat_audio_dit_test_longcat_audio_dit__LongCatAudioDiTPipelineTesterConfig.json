@@ -1,0 +1,26 @@
+{
+ "pipeline": "LongCatAudioDiTPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "matmul_precision": "highest",
+ "cpu_time_s": 0.07716895896010101,
+ "tpu_first_call_s": 3.776566045009531,
+ "tpu_time_s": 0.058841669000685215,
+ "output_shape": [
+  1,
+  1,
+  4800
+ ],
+ "finite": true,
+ "max_abs_diff": 1.3113021850585938e-06,
+ "mean_abs_diff": 2.3235664059484407e-07,
+ "ref_max_abs": 2.522935152053833,
+ "status": "pass",
+ "id": "tests.pipelines.longcat_audio_dit.test_longcat_audio_dit::LongCatAudioDiTPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 11.285080176021438,
+ "family": "longcat_audio_dit",
+ "log": "logs/smoke_highest/eager/longcat_audio_dit_test_longcat_audio_dit__LongCatAudioDiTPipelineTesterConfig.log",
+ "chip": 2,
+ "job_wall_s": 16.70654681697488
+}

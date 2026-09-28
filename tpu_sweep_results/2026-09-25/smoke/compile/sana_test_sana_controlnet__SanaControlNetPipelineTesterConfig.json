@@ -1,0 +1,31 @@
+{
+ "pipeline": "SanaControlNetPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.046717829012777656,
+ "compiled": [
+  "vae.decode/encode",
+  "transformer",
+  "controlnet"
+ ],
+ "tpu_first_call_s": 14.667350673989858,
+ "tpu_time_s": 0.027174210001248866,
+ "output_shape": [
+  1,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.06304514408111572,
+ "mean_abs_diff": 0.002058654325082898,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.sana.test_sana_controlnet::SanaControlNetPipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 21.741807846003212,
+ "family": "sana",
+ "log": "logs/smoke/compile/sana_test_sana_controlnet__SanaControlNetPipelineTesterConfig.log",
+ "chip": 1,
+ "job_wall_s": 26.781625709030777
+}

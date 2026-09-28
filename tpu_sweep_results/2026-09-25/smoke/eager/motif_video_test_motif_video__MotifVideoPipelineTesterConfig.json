@@ -1,0 +1,28 @@
+{
+ "pipeline": "MotifVideoPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.07127646898152307,
+ "tpu_first_call_s": 6.422440338006709,
+ "tpu_time_s": 0.23372276697773486,
+ "output_shape": [
+  1,
+  9,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.15992975234985352,
+ "mean_abs_diff": 0.0037016707938164473,
+ "ref_max_abs": 0.7064392566680908,
+ "reason": "output differs from CPU beyond atol=rtol=0.1",
+ "status": "fail",
+ "id": "tests.pipelines.motif_video.test_motif_video::MotifVideoPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 22.276452741993126,
+ "family": "motif_video",
+ "log": "logs/smoke/eager/motif_video_test_motif_video__MotifVideoPipelineTesterConfig.log",
+ "chip": 0,
+ "job_wall_s": 29.0861059629824
+}

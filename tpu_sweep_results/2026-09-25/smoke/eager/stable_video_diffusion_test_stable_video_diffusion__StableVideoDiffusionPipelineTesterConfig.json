@@ -1,0 +1,27 @@
+{
+ "pipeline": "StableVideoDiffusionPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.8099580719717778,
+ "tpu_first_call_s": 6.025471357977949,
+ "tpu_time_s": 0.28058410598896444,
+ "output_shape": [
+  1,
+  2,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.010852634906768799,
+ "mean_abs_diff": 0.0014960659900680184,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.stable_video_diffusion.test_stable_video_diffusion::StableVideoDiffusionPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 14.074019847030286,
+ "family": "stable_video_diffusion",
+ "log": "logs/smoke/eager/stable_video_diffusion_test_stable_video_diffusion__StableVideoDiffusionPipelineTesterConfig.log",
+ "chip": 4,
+ "job_wall_s": 20.71049032098381
+}

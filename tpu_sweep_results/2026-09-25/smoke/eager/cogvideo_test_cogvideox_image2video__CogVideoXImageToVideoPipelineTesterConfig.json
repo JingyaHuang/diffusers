@@ -1,0 +1,27 @@
+{
+ "pipeline": "CogVideoXImageToVideoPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 15.040229602018371,
+ "tpu_first_call_s": 5.42675171198789,
+ "tpu_time_s": 0.14987156802089885,
+ "output_shape": [
+  1,
+  8,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.010907202959060669,
+ "mean_abs_diff": 0.0014012429164722562,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.cogvideo.test_cogvideox_image2video::CogVideoXImageToVideoPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 45.11676461796742,
+ "family": "cogvideo",
+ "log": "logs/smoke/eager/cogvideo_test_cogvideox_image2video__CogVideoXImageToVideoPipelineTesterConfig.log",
+ "chip": 7,
+ "job_wall_s": 52.69423746102257
+}

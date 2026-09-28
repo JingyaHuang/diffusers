@@ -1,0 +1,31 @@
+{
+ "pipeline": "WanPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.6853330999729224,
+ "compiled": [
+  "vae.decode/encode",
+  "transformer"
+ ],
+ "tpu_first_call_s": 12.222072108997963,
+ "tpu_time_s": 0.051052819006145,
+ "output_shape": [
+  1,
+  9,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.0020273327827453613,
+ "mean_abs_diff": 0.00034141415380872786,
+ "ref_max_abs": 0.9802650213241577,
+ "status": "pass",
+ "id": "tests.pipelines.wan.test_wan_22::TestWan225BPipeline",
+ "mode": "compile",
+ "wall_s": 21.135291023994796,
+ "family": "wan",
+ "log": "logs/smoke/compile/wan_test_wan_22__TestWan225BPipeline.log",
+ "chip": 5,
+ "job_wall_s": 25.873864844965283
+}

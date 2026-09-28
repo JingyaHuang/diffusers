@@ -1,0 +1,28 @@
+{
+ "pipeline": "LTX2HDRPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.13565974798984826,
+ "tpu_first_call_s": 3.9685054540168494,
+ "tpu_time_s": 0.1758572970284149,
+ "output_shape": [
+  1,
+  5,
+  32,
+  32,
+  3
+ ],
+ "finite": true,
+ "max_abs_diff": 19.985897064208984,
+ "mean_abs_diff": 0.6002062559127808,
+ "ref_max_abs": 55.079559326171875,
+ "reason": "output differs from CPU beyond atol=rtol=0.1",
+ "status": "fail",
+ "id": "tests.pipelines.ltx2.test_ltx2_hdr::TestLTX2HDRPipeline",
+ "mode": "eager",
+ "wall_s": 19.78404475498246,
+ "family": "ltx2",
+ "log": "logs/smoke/eager/ltx2_test_ltx2_hdr__TestLTX2HDRPipeline.log",
+ "chip": 6,
+ "job_wall_s": 26.552589483966585
+}

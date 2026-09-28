@@ -1,0 +1,28 @@
+{
+ "pipeline": "MotifVideoImage2VideoPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "matmul_precision": "highest",
+ "cpu_time_s": 0.06702406902331859,
+ "tpu_first_call_s": 12.826597823994234,
+ "tpu_time_s": 0.14398238802095875,
+ "output_shape": [
+  1,
+  9,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.0001208186149597168,
+ "mean_abs_diff": 7.331086635531392e-06,
+ "ref_max_abs": 0.6835383176803589,
+ "status": "pass",
+ "id": "tests.pipelines.motif_video.test_motif_video_image2video::MotifVideoImage2VideoPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 23.16253200400388,
+ "family": "motif_video",
+ "log": "logs/smoke_highest/eager/motif_video_test_motif_video_image2video__MotifVideoImage2VideoPipelineTesterConfig.log",
+ "chip": 7,
+ "job_wall_s": 27.171124435029924
+}

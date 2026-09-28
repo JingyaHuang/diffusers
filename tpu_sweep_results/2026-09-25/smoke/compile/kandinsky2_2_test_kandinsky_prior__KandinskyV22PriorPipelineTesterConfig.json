@@ -1,0 +1,27 @@
+{
+ "pipeline": "KandinskyV22PriorPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.03078153997194022,
+ "compiled": [
+  "prior"
+ ],
+ "tpu_first_call_s": 2.400748115964234,
+ "tpu_time_s": 0.456102893978823,
+ "output_shape": [
+  1,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.021602965891361237,
+ "mean_abs_diff": 0.006362677086144686,
+ "ref_max_abs": 1.4404703378677368,
+ "status": "pass",
+ "id": "tests.pipelines.kandinsky2_2.test_kandinsky_prior::KandinskyV22PriorPipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 40.34588531497866,
+ "family": "kandinsky2_2",
+ "log": "logs/smoke/compile/kandinsky2_2_test_kandinsky_prior__KandinskyV22PriorPipelineTesterConfig.log",
+ "chip": 0,
+ "job_wall_s": 44.28963925904827
+}

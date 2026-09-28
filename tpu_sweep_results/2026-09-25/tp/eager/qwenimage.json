@@ -1,0 +1,42 @@
+{
+ "model": "QwenImageTransformer2DModel",
+ "tp_size": 8,
+ "init_dict": {
+  "patch_size": 2,
+  "in_channels": 16,
+  "out_channels": 4,
+  "num_layers": 2,
+  "attention_head_dim": 16,
+  "num_attention_heads": 8,
+  "joint_attention_dim": 16,
+  "guidance_embeds": false,
+  "axes_dims_rope": [
+   8,
+   4,
+   4
+  ]
+ },
+ "atol": 0.1,
+ "rtol": 0.1,
+ "num_params": 1276320,
+ "single_chip_time_s": 0.269623666012194,
+ "num_sharded_params": 48,
+ "tp_first_call_s": 0.11039999802596867,
+ "tp_time_s": 0.32815677602775395,
+ "output_shape": [
+  1,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff_vs_single_chip": 0.011305123567581177,
+ "max_abs_diff_vs_cpu": 0.010273665189743042,
+ "single_chip_max_abs_diff_vs_cpu": 0.009844064712524414,
+ "status": "pass",
+ "id": "tests.models.transformers.test_models_transformer_qwenimage:make_tpu_tp_spec",
+ "mode": "eager",
+ "wall_s": 4.015449931961484,
+ "name": "qwenimage",
+ "log": "logs/tp/eager/qwenimage.log",
+ "job_wall_s": 23.413005679962225
+}

@@ -1,0 +1,26 @@
+{
+ "pipeline": "LuminaPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.03157246904447675,
+ "tpu_first_call_s": 3.855327246012166,
+ "tpu_time_s": 0.09264403802808374,
+ "output_shape": [
+  1,
+  3,
+  4,
+  4
+ ],
+ "finite": true,
+ "max_abs_diff": 0.0023353099822998047,
+ "mean_abs_diff": 0.0006399148260243237,
+ "ref_max_abs": 0.8207284212112427,
+ "status": "pass",
+ "id": "tests.pipelines.lumina.test_lumina_nextdit::LuminaPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 20.147691471036524,
+ "family": "lumina",
+ "log": "logs/smoke/eager/lumina_test_lumina_nextdit__LuminaPipelineTesterConfig.log",
+ "chip": 6,
+ "job_wall_s": 26.163055938959587
+}

@@ -1,0 +1,24 @@
+{
+ "pipeline": "AudioLDM2Pipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 41.74743349396158,
+ "tpu_first_call_s": 7.82303570600925,
+ "tpu_time_s": 0.5322565620299429,
+ "output_shape": [
+  1,
+  256
+ ],
+ "finite": true,
+ "max_abs_diff": 4.430455646797782e-08,
+ "mean_abs_diff": 8.73538752443892e-09,
+ "ref_max_abs": 2.959679704872542e-06,
+ "status": "pass",
+ "id": "tests.pipelines.audioldm2.test_audioldm2::AudioLDM2PipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 73.42955261201132,
+ "family": "audioldm2",
+ "log": "logs/smoke/eager/audioldm2_test_audioldm2__AudioLDM2PipelineTesterConfig.log",
+ "chip": 7,
+ "job_wall_s": 83.97109146503499
+}

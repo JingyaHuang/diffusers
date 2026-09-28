@@ -1,0 +1,36 @@
+{
+ "pipeline": "LTX2HDRPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "matmul_precision": "highest",
+ "cpu_time_s": 0.06633072899421677,
+ "compiled": [
+  "vae.decode/encode",
+  "audio_vae",
+  "connectors",
+  "transformer",
+  "vocoder"
+ ],
+ "tpu_first_call_s": 12.847825763979927,
+ "tpu_time_s": 0.06862487900070846,
+ "output_shape": [
+  1,
+  5,
+  32,
+  32,
+  3
+ ],
+ "finite": false,
+ "max_abs_diff": null,
+ "mean_abs_diff": null,
+ "ref_max_abs": 55.079559326171875,
+ "reason": "TPU output contains non-finite values",
+ "status": "fail",
+ "id": "tests.pipelines.ltx2.test_ltx2_hdr::TestLTX2HDRPipeline",
+ "mode": "compile",
+ "wall_s": 29.547092902997974,
+ "family": "ltx2",
+ "log": "logs/smoke_highest/compile/ltx2_test_ltx2_hdr__TestLTX2HDRPipeline.log",
+ "chip": 7,
+ "job_wall_s": 33.409628905996215
+}

@@ -1,0 +1,29 @@
+{
+ "pipeline": "ShapEImg2ImgPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.03339056996628642,
+ "compiled": [
+  "prior",
+  "shap_e_renderer"
+ ],
+ "tpu_first_call_s": 4.6983149540028535,
+ "tpu_time_s": 0.021529569989070296,
+ "output_shape": [
+  1,
+  32,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.015191137790679932,
+ "mean_abs_diff": 0.003399896901100874,
+ "ref_max_abs": 1.0000001192092896,
+ "status": "pass",
+ "id": "tests.pipelines.shap_e.test_shap_e_img2img::ShapEImg2ImgPipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 10.616112641000655,
+ "family": "shap_e",
+ "log": "logs/smoke/compile/shap_e_test_shap_e_img2img__ShapEImg2ImgPipelineTesterConfig.log",
+ "chip": 1,
+ "job_wall_s": 15.376938963017892
+}

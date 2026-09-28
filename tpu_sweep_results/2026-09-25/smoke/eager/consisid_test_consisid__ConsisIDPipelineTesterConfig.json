@@ -1,0 +1,28 @@
+{
+ "pipeline": "ConsisIDPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "matmul_precision": "default",
+ "cpu_time_s": 0.060095306020230055,
+ "tpu_first_call_s": 2.091779508977197,
+ "tpu_time_s": 0.11598354898160324,
+ "output_shape": [
+  1,
+  8,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.0048209428787231445,
+ "mean_abs_diff": 0.0005376873887144029,
+ "ref_max_abs": 0.8211807012557983,
+ "status": "pass",
+ "id": "tests.pipelines.consisid.test_consisid::ConsisIDPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 13.55570385500323,
+ "family": "consisid",
+ "log": "logs/smoke/eager/consisid_test_consisid__ConsisIDPipelineTesterConfig.log",
+ "chip": 2,
+ "job_wall_s": 18.951337313978
+}

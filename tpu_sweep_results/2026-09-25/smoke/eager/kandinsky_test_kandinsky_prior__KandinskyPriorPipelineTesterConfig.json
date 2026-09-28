@@ -1,0 +1,24 @@
+{
+ "pipeline": "KandinskyPriorPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.031568579957820475,
+ "tpu_first_call_s": 0.7957943679648452,
+ "tpu_time_s": 0.4645545129897073,
+ "output_shape": [
+  1,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.021602965891361237,
+ "mean_abs_diff": 0.006362677086144686,
+ "ref_max_abs": 1.4404703378677368,
+ "status": "pass",
+ "id": "tests.pipelines.kandinsky.test_kandinsky_prior::KandinskyPriorPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 11.441033385985065,
+ "family": "kandinsky",
+ "log": "logs/smoke/eager/kandinsky_test_kandinsky_prior__KandinskyPriorPipelineTesterConfig.log",
+ "chip": 7,
+ "job_wall_s": 15.36037078301888
+}

@@ -1,0 +1,28 @@
+{
+ "pipeline": "LLaDA2Pipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "matmul_precision": "default",
+ "cpu_time_s": 0.01526287799970305,
+ "compiled": [
+  "model"
+ ],
+ "tpu_first_call_s": 11.463316049999776,
+ "tpu_time_s": 0.2603517980005563,
+ "output_shape": [
+  2,
+  24
+ ],
+ "finite": true,
+ "max_abs_diff": 0.0,
+ "mean_abs_diff": 0.0,
+ "ref_max_abs": 27.0,
+ "status": "pass",
+ "id": "utils.tpu_sweep.extra_configs::LLaDA2Config",
+ "mode": "compile",
+ "wall_s": 17.92780715599838,
+ "family": "llada2",
+ "log": "logs/smoke/compile/utils_tpu_sweep_extra_configs__LLaDA2Config.log",
+ "chip": 2,
+ "job_wall_s": 23.943482083999697
+}

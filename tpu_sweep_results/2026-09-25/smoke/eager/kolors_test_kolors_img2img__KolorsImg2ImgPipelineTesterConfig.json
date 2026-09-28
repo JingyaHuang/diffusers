@@ -1,0 +1,27 @@
+{
+ "pipeline": "KolorsImg2ImgPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.20137760898796842,
+ "tpu_first_call_s": 2.236074692045804,
+ "tpu_time_s": 0.11263043899089098,
+ "output_shape": [
+  1,
+  3,
+  64,
+  64
+ ],
+ "finite": true,
+ "max_abs_diff": 0.1827620267868042,
+ "mean_abs_diff": 0.009882868267595768,
+ "ref_max_abs": 1.0,
+ "reason": "output differs from CPU beyond atol=rtol=0.1",
+ "status": "fail",
+ "id": "tests.pipelines.kolors.test_kolors_img2img::KolorsImg2ImgPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 15.224938924016897,
+ "family": "kolors",
+ "log": "logs/smoke/eager/kolors_test_kolors_img2img__KolorsImg2ImgPipelineTesterConfig.log",
+ "chip": 4,
+ "job_wall_s": 19.721997546963394
+}

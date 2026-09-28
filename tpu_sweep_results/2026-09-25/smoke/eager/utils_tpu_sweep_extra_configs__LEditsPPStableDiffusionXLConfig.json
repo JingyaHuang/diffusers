@@ -1,0 +1,28 @@
+{
+ "pipeline": "LEditsPPPipelineStableDiffusionXL",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "matmul_precision": "default",
+ "cpu_time_s": 1.4429142570006661,
+ "tpu_first_call_s": 9.67043036799987,
+ "tpu_time_s": 4.228290796998408,
+ "output_shape": [
+  1,
+  32,
+  32,
+  3
+ ],
+ "finite": true,
+ "max_abs_diff": 0.6941176652908325,
+ "mean_abs_diff": 0.07678844779729843,
+ "ref_max_abs": 1.0,
+ "reason": "output differs from CPU beyond atol=rtol=0.1",
+ "status": "fail",
+ "id": "utils.tpu_sweep.extra_configs::LEditsPPStableDiffusionXLConfig",
+ "mode": "eager",
+ "wall_s": 27.62831590999849,
+ "family": "ledits_pp",
+ "log": "logs/smoke/eager/utils_tpu_sweep_extra_configs__LEditsPPStableDiffusionXLConfig.log",
+ "chip": 2,
+ "job_wall_s": 32.69100500600143
+}

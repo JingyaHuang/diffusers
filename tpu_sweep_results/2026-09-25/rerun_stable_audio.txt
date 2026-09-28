@@ -1,0 +1,2 @@
+eager tests.pipelines.stable_audio.test_stable_audio::StableAudioPipelineTesterConfig
+compile tests.pipelines.stable_audio.test_stable_audio::StableAudioPipelineTesterConfig

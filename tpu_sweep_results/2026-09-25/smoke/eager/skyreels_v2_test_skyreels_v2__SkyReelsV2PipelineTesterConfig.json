@@ -1,0 +1,27 @@
+{
+ "pipeline": "SkyReelsV2Pipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.04918268002802506,
+ "tpu_first_call_s": 4.076875792001374,
+ "tpu_time_s": 0.11362345796078444,
+ "output_shape": [
+  1,
+  9,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.11344555020332336,
+ "mean_abs_diff": 0.0017859990475699306,
+ "ref_max_abs": 0.9711893796920776,
+ "status": "pass",
+ "id": "tests.pipelines.skyreels_v2.test_skyreels_v2::SkyReelsV2PipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 17.244700001028832,
+ "family": "skyreels_v2",
+ "log": "logs/smoke/eager/skyreels_v2_test_skyreels_v2__SkyReelsV2PipelineTesterConfig.log",
+ "chip": 6,
+ "job_wall_s": 25.89108607399976
+}

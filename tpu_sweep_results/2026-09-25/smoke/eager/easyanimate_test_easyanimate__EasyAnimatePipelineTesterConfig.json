@@ -1,0 +1,27 @@
+{
+ "pipeline": "EasyAnimatePipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.1324732440407388,
+ "tpu_first_call_s": 2.9203209319966845,
+ "tpu_time_s": 0.08177931501995772,
+ "output_shape": [
+  1,
+  5,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.016708850860595703,
+ "mean_abs_diff": 0.0031566587276756763,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.easyanimate.test_easyanimate::EasyAnimatePipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 18.032171667029615,
+ "family": "easyanimate",
+ "log": "logs/smoke/eager/easyanimate_test_easyanimate__EasyAnimatePipelineTesterConfig.log",
+ "chip": 3,
+ "job_wall_s": 25.541442807996646
+}

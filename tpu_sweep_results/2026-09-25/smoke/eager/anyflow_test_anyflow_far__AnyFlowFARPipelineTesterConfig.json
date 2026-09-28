@@ -1,0 +1,27 @@
+{
+ "pipeline": "AnyFlowFARPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 69.8207836439833,
+ "tpu_first_call_s": 8.370021787995938,
+ "tpu_time_s": 1.544115206983406,
+ "output_shape": [
+  1,
+  9,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.006387948989868164,
+ "mean_abs_diff": 0.00030183757189661264,
+ "ref_max_abs": 0.7022171020507812,
+ "status": "pass",
+ "id": "tests.pipelines.anyflow.test_anyflow_far::AnyFlowFARPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 90.72494861896848,
+ "family": "anyflow",
+ "log": "logs/smoke/eager/anyflow_test_anyflow_far__AnyFlowFARPipelineTesterConfig.log",
+ "chip": 1,
+ "job_wall_s": 98.05087403499056
+}

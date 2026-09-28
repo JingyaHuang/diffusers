@@ -1,0 +1,26 @@
+{
+ "pipeline": "ZImagePipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.054287790961097926,
+ "tpu_first_call_s": 5.905598195036873,
+ "tpu_time_s": 0.08583543897839263,
+ "output_shape": [
+  1,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.005716085433959961,
+ "mean_abs_diff": 0.001110767130739987,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.z_image.test_z_image::TestZImagePipeline",
+ "mode": "eager",
+ "wall_s": 16.605344110983424,
+ "family": "z_image",
+ "log": "logs/smoke/eager/z_image_test_z_image__TestZImagePipeline.log",
+ "chip": 5,
+ "job_wall_s": 22.628412749967538
+}

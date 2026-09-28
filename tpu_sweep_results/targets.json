@@ -1,0 +1,1622 @@
+{
+ "targets": [
+  {
+   "id": "tests.pipelines.ace_step.test_ace_step::AceStepPipelineTesterConfig",
+   "module": "tests.pipelines.ace_step.test_ace_step",
+   "cls": "AceStepPipelineTesterConfig",
+   "pipeline": "AceStepPipeline",
+   "family": "ace_step"
+  },
+  {
+   "id": "tests.pipelines.allegro.test_allegro::AllegroPipelineTesterConfig",
+   "module": "tests.pipelines.allegro.test_allegro",
+   "cls": "AllegroPipelineTesterConfig",
+   "pipeline": "AllegroPipeline",
+   "family": "allegro"
+  },
+  {
+   "id": "tests.pipelines.animatediff.test_animatediff::AnimateDiffPipelineTesterConfig",
+   "module": "tests.pipelines.animatediff.test_animatediff",
+   "cls": "AnimateDiffPipelineTesterConfig",
+   "pipeline": "AnimateDiffPipeline",
+   "family": "animatediff"
+  },
+  {
+   "id": "tests.pipelines.animatediff.test_animatediff_controlnet::AnimateDiffControlNetPipelineTesterConfig",
+   "module": "tests.pipelines.animatediff.test_animatediff_controlnet",
+   "cls": "AnimateDiffControlNetPipelineTesterConfig",
+   "pipeline": "AnimateDiffControlNetPipeline",
+   "family": "animatediff"
+  },
+  {
+   "id": "tests.pipelines.animatediff.test_animatediff_sdxl::AnimateDiffSDXLPipelineTesterConfig",
+   "module": "tests.pipelines.animatediff.test_animatediff_sdxl",
+   "cls": "AnimateDiffSDXLPipelineTesterConfig",
+   "pipeline": "AnimateDiffSDXLPipeline",
+   "family": "animatediff"
+  },
+  {
+   "id": "tests.pipelines.animatediff.test_animatediff_sparsectrl::AnimateDiffSparseControlNetPipelineTesterConfig",
+   "module": "tests.pipelines.animatediff.test_animatediff_sparsectrl",
+   "cls": "AnimateDiffSparseControlNetPipelineTesterConfig",
+   "pipeline": "AnimateDiffSparseControlNetPipeline",
+   "family": "animatediff"
+  },
+  {
+   "id": "tests.pipelines.animatediff.test_animatediff_video2video::AnimateDiffVideoToVideoPipelineTesterConfig",
+   "module": "tests.pipelines.animatediff.test_animatediff_video2video",
+   "cls": "AnimateDiffVideoToVideoPipelineTesterConfig",
+   "pipeline": "AnimateDiffVideoToVideoPipeline",
+   "family": "animatediff"
+  },
+  {
+   "id": "tests.pipelines.animatediff.test_animatediff_video2video_controlnet::AnimateDiffVideoToVideoControlNetPipelineTesterConfig",
+   "module": "tests.pipelines.animatediff.test_animatediff_video2video_controlnet",
+   "cls": "AnimateDiffVideoToVideoControlNetPipelineTesterConfig",
+   "pipeline": "AnimateDiffVideoToVideoControlNetPipeline",
+   "family": "animatediff"
+  },
+  {
+   "id": "tests.pipelines.anyflow.test_anyflow::AnyFlowPipelineTesterConfig",
+   "module": "tests.pipelines.anyflow.test_anyflow",
+   "cls": "AnyFlowPipelineTesterConfig",
+   "pipeline": "AnyFlowPipeline",
+   "family": "anyflow"
+  },
+  {
+   "id": "tests.pipelines.anyflow.test_anyflow_far::AnyFlowFARPipelineTesterConfig",
+   "module": "tests.pipelines.anyflow.test_anyflow_far",
+   "cls": "AnyFlowFARPipelineTesterConfig",
+   "pipeline": "AnyFlowFARPipeline",
+   "family": "anyflow"
+  },
+  {
+   "id": "tests.pipelines.audioldm2.test_audioldm2::AudioLDM2PipelineTesterConfig",
+   "module": "tests.pipelines.audioldm2.test_audioldm2",
+   "cls": "AudioLDM2PipelineTesterConfig",
+   "pipeline": "AudioLDM2Pipeline",
+   "family": "audioldm2"
+  },
+  {
+   "id": "tests.pipelines.aura_flow.test_pipeline_aura_flow::AuraFlowPipelineTesterConfig",
+   "module": "tests.pipelines.aura_flow.test_pipeline_aura_flow",
+   "cls": "AuraFlowPipelineTesterConfig",
+   "pipeline": "AuraFlowPipeline",
+   "family": "aura_flow"
+  },
+  {
+   "id": "tests.pipelines.bria.test_pipeline_bria::BriaPipelineTesterConfig",
+   "module": "tests.pipelines.bria.test_pipeline_bria",
+   "cls": "BriaPipelineTesterConfig",
+   "pipeline": "BriaPipeline",
+   "family": "bria"
+  },
+  {
+   "id": "tests.pipelines.bria_fibo.test_pipeline_bria_fibo::BriaFiboPipelineTesterConfig",
+   "module": "tests.pipelines.bria_fibo.test_pipeline_bria_fibo",
+   "cls": "BriaFiboPipelineTesterConfig",
+   "pipeline": "BriaFiboPipeline",
+   "family": "bria_fibo"
+  },
+  {
+   "id": "tests.pipelines.bria_fibo_edit.test_pipeline_bria_fibo_edit::BriaFiboEditPipelineTesterConfig",
+   "module": "tests.pipelines.bria_fibo_edit.test_pipeline_bria_fibo_edit",
+   "cls": "BriaFiboEditPipelineTesterConfig",
+   "pipeline": "BriaFiboEditPipeline",
+   "family": "bria_fibo_edit"
+  },
+  {
+   "id": "tests.pipelines.chroma.test_pipeline_chroma::ChromaPipelineTesterConfig",
+   "module": "tests.pipelines.chroma.test_pipeline_chroma",
+   "cls": "ChromaPipelineTesterConfig",
+   "pipeline": "ChromaPipeline",
+   "family": "chroma"
+  },
+  {
+   "id": "tests.pipelines.chroma.test_pipeline_chroma_img2img::ChromaImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.chroma.test_pipeline_chroma_img2img",
+   "cls": "ChromaImg2ImgPipelineTesterConfig",
+   "pipeline": "ChromaImg2ImgPipeline",
+   "family": "chroma"
+  },
+  {
+   "id": "tests.pipelines.chronoedit.test_chronoedit::ChronoEditPipelineTesterConfig",
+   "module": "tests.pipelines.chronoedit.test_chronoedit",
+   "cls": "ChronoEditPipelineTesterConfig",
+   "pipeline": "ChronoEditPipeline",
+   "family": "chronoedit"
+  },
+  {
+   "id": "tests.pipelines.cogvideo.test_cogvideox::CogVideoXPipelineTesterConfig",
+   "module": "tests.pipelines.cogvideo.test_cogvideox",
+   "cls": "CogVideoXPipelineTesterConfig",
+   "pipeline": "CogVideoXPipeline",
+   "family": "cogvideo"
+  },
+  {
+   "id": "tests.pipelines.cogvideo.test_cogvideox_fun_control::CogVideoXFunControlPipelineTesterConfig",
+   "module": "tests.pipelines.cogvideo.test_cogvideox_fun_control",
+   "cls": "CogVideoXFunControlPipelineTesterConfig",
+   "pipeline": "CogVideoXFunControlPipeline",
+   "family": "cogvideo"
+  },
+  {
+   "id": "tests.pipelines.cogvideo.test_cogvideox_image2video::CogVideoXImageToVideoPipelineTesterConfig",
+   "module": "tests.pipelines.cogvideo.test_cogvideox_image2video",
+   "cls": "CogVideoXImageToVideoPipelineTesterConfig",
+   "pipeline": "CogVideoXImageToVideoPipeline",
+   "family": "cogvideo"
+  },
+  {
+   "id": "tests.pipelines.cogvideo.test_cogvideox_video2video::CogVideoXVideoToVideoPipelineTesterConfig",
+   "module": "tests.pipelines.cogvideo.test_cogvideox_video2video",
+   "cls": "CogVideoXVideoToVideoPipelineTesterConfig",
+   "pipeline": "CogVideoXVideoToVideoPipeline",
+   "family": "cogvideo"
+  },
+  {
+   "id": "tests.pipelines.cogview3.test_cogview3plus::CogView3PlusPipelineTesterConfig",
+   "module": "tests.pipelines.cogview3.test_cogview3plus",
+   "cls": "CogView3PlusPipelineTesterConfig",
+   "pipeline": "CogView3PlusPipeline",
+   "family": "cogview3"
+  },
+  {
+   "id": "tests.pipelines.cogview4.test_cogview4::CogView4PipelineTesterConfig",
+   "module": "tests.pipelines.cogview4.test_cogview4",
+   "cls": "CogView4PipelineTesterConfig",
+   "pipeline": "CogView4Pipeline",
+   "family": "cogview4"
+  },
+  {
+   "id": "tests.pipelines.consisid.test_consisid::ConsisIDPipelineTesterConfig",
+   "module": "tests.pipelines.consisid.test_consisid",
+   "cls": "ConsisIDPipelineTesterConfig",
+   "pipeline": "ConsisIDPipeline",
+   "family": "consisid"
+  },
+  {
+   "id": "tests.pipelines.consistency_models.test_consistency_models::ConsistencyModelPipelineTesterConfig",
+   "module": "tests.pipelines.consistency_models.test_consistency_models",
+   "cls": "ConsistencyModelPipelineTesterConfig",
+   "pipeline": "ConsistencyModelPipeline",
+   "family": "consistency_models"
+  },
+  {
+   "id": "tests.pipelines.controlnet.test_controlnet::ControlNetPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet.test_controlnet",
+   "cls": "ControlNetPipelineTesterConfig",
+   "pipeline": "StableDiffusionControlNetPipeline",
+   "family": "controlnet"
+  },
+  {
+   "id": "tests.pipelines.controlnet.test_controlnet::StableDiffusionMultiControlNetOneModelPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet.test_controlnet",
+   "cls": "StableDiffusionMultiControlNetOneModelPipelineTesterConfig",
+   "pipeline": "StableDiffusionControlNetPipeline",
+   "family": "controlnet"
+  },
+  {
+   "id": "tests.pipelines.controlnet.test_controlnet::StableDiffusionMultiControlNetPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet.test_controlnet",
+   "cls": "StableDiffusionMultiControlNetPipelineTesterConfig",
+   "pipeline": "StableDiffusionControlNetPipeline",
+   "family": "controlnet"
+  },
+  {
+   "id": "tests.pipelines.controlnet.test_controlnet_img2img::ControlNetImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet.test_controlnet_img2img",
+   "cls": "ControlNetImg2ImgPipelineTesterConfig",
+   "pipeline": "StableDiffusionControlNetImg2ImgPipeline",
+   "family": "controlnet"
+  },
+  {
+   "id": "tests.pipelines.controlnet.test_controlnet_img2img::StableDiffusionMultiControlNetImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet.test_controlnet_img2img",
+   "cls": "StableDiffusionMultiControlNetImg2ImgPipelineTesterConfig",
+   "pipeline": "StableDiffusionControlNetImg2ImgPipeline",
+   "family": "controlnet"
+  },
+  {
+   "id": "tests.pipelines.controlnet.test_controlnet_inpaint::ControlNetInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet.test_controlnet_inpaint",
+   "cls": "ControlNetInpaintPipelineTesterConfig",
+   "pipeline": "StableDiffusionControlNetInpaintPipeline",
+   "family": "controlnet"
+  },
+  {
+   "id": "tests.pipelines.controlnet.test_controlnet_inpaint::ControlNetSimpleInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet.test_controlnet_inpaint",
+   "cls": "ControlNetSimpleInpaintPipelineTesterConfig",
+   "pipeline": "StableDiffusionControlNetInpaintPipeline",
+   "family": "controlnet"
+  },
+  {
+   "id": "tests.pipelines.controlnet.test_controlnet_inpaint::MultiControlNetInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet.test_controlnet_inpaint",
+   "cls": "MultiControlNetInpaintPipelineTesterConfig",
+   "pipeline": "StableDiffusionControlNetInpaintPipeline",
+   "family": "controlnet"
+  },
+  {
+   "id": "tests.pipelines.controlnet.test_controlnet_inpaint_sdxl::StableDiffusionXLControlNetInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet.test_controlnet_inpaint_sdxl",
+   "cls": "StableDiffusionXLControlNetInpaintPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLControlNetInpaintPipeline",
+   "family": "controlnet"
+  },
+  {
+   "id": "tests.pipelines.controlnet.test_controlnet_sdxl::StableDiffusionSSD1BControlNetPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet.test_controlnet_sdxl",
+   "cls": "StableDiffusionSSD1BControlNetPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLControlNetPipeline",
+   "family": "controlnet"
+  },
+  {
+   "id": "tests.pipelines.controlnet.test_controlnet_sdxl::StableDiffusionXLControlNetPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet.test_controlnet_sdxl",
+   "cls": "StableDiffusionXLControlNetPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLControlNetPipeline",
+   "family": "controlnet"
+  },
+  {
+   "id": "tests.pipelines.controlnet.test_controlnet_sdxl::StableDiffusionXLMultiControlNetOneModelPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet.test_controlnet_sdxl",
+   "cls": "StableDiffusionXLMultiControlNetOneModelPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLControlNetPipeline",
+   "family": "controlnet"
+  },
+  {
+   "id": "tests.pipelines.controlnet.test_controlnet_sdxl::StableDiffusionXLMultiControlNetPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet.test_controlnet_sdxl",
+   "cls": "StableDiffusionXLMultiControlNetPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLControlNetPipeline",
+   "family": "controlnet"
+  },
+  {
+   "id": "tests.pipelines.controlnet.test_controlnet_sdxl_img2img::StableDiffusionXLControlNetImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet.test_controlnet_sdxl_img2img",
+   "cls": "StableDiffusionXLControlNetImg2ImgPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLControlNetImg2ImgPipeline",
+   "family": "controlnet"
+  },
+  {
+   "id": "tests.pipelines.controlnet_flux.test_controlnet_flux::FluxControlNetPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet_flux.test_controlnet_flux",
+   "cls": "FluxControlNetPipelineTesterConfig",
+   "pipeline": "FluxControlNetPipeline",
+   "family": "controlnet_flux"
+  },
+  {
+   "id": "tests.pipelines.controlnet_flux.test_controlnet_flux_img2img::FluxControlNetImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet_flux.test_controlnet_flux_img2img",
+   "cls": "FluxControlNetImg2ImgPipelineTesterConfig",
+   "pipeline": "FluxControlNetImg2ImgPipeline",
+   "family": "controlnet_flux"
+  },
+  {
+   "id": "tests.pipelines.controlnet_flux.test_controlnet_flux_inpaint::FluxControlNetInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet_flux.test_controlnet_flux_inpaint",
+   "cls": "FluxControlNetInpaintPipelineTesterConfig",
+   "pipeline": "FluxControlNetInpaintPipeline",
+   "family": "controlnet_flux"
+  },
+  {
+   "id": "tests.pipelines.controlnet_hunyuandit.test_controlnet_hunyuandit::HunyuanDiTControlNetPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet_hunyuandit.test_controlnet_hunyuandit",
+   "cls": "HunyuanDiTControlNetPipelineTesterConfig",
+   "pipeline": "HunyuanDiTControlNetPipeline",
+   "family": "controlnet_hunyuandit"
+  },
+  {
+   "id": "tests.pipelines.controlnet_sd3.test_controlnet_inpaint_sd3::StableDiffusion3ControlNetInpaintingPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet_sd3.test_controlnet_inpaint_sd3",
+   "cls": "StableDiffusion3ControlNetInpaintingPipelineTesterConfig",
+   "pipeline": "StableDiffusion3ControlNetInpaintingPipeline",
+   "family": "controlnet_sd3"
+  },
+  {
+   "id": "tests.pipelines.controlnet_sd3.test_controlnet_sd3::StableDiffusion3ControlNetPipelineTesterConfig",
+   "module": "tests.pipelines.controlnet_sd3.test_controlnet_sd3",
+   "cls": "StableDiffusion3ControlNetPipelineTesterConfig",
+   "pipeline": "StableDiffusion3ControlNetPipeline",
+   "family": "controlnet_sd3"
+  },
+  {
+   "id": "tests.pipelines.cosmos.test_cosmos::CosmosTextToWorldPipelineTesterConfig",
+   "module": "tests.pipelines.cosmos.test_cosmos",
+   "cls": "CosmosTextToWorldPipelineTesterConfig",
+   "pipeline": "CosmosTextToWorldPipelineWrapper",
+   "family": "cosmos"
+  },
+  {
+   "id": "tests.pipelines.cosmos.test_cosmos2_5_predict::Cosmos2_5_PredictPipelineTesterConfig",
+   "module": "tests.pipelines.cosmos.test_cosmos2_5_predict",
+   "cls": "Cosmos2_5_PredictPipelineTesterConfig",
+   "pipeline": "Cosmos2_5_PredictBaseWrapper",
+   "family": "cosmos"
+  },
+  {
+   "id": "tests.pipelines.cosmos.test_cosmos2_5_transfer::Cosmos2_5_TransferPipelineTesterConfig",
+   "module": "tests.pipelines.cosmos.test_cosmos2_5_transfer",
+   "cls": "Cosmos2_5_TransferPipelineTesterConfig",
+   "pipeline": "Cosmos2_5_TransferWrapper",
+   "family": "cosmos"
+  },
+  {
+   "id": "tests.pipelines.cosmos.test_cosmos2_text2image::Cosmos2TextToImagePipelineTesterConfig",
+   "module": "tests.pipelines.cosmos.test_cosmos2_text2image",
+   "cls": "Cosmos2TextToImagePipelineTesterConfig",
+   "pipeline": "Cosmos2TextToImagePipelineWrapper",
+   "family": "cosmos"
+  },
+  {
+   "id": "tests.pipelines.cosmos.test_cosmos2_video2world::Cosmos2VideoToWorldPipelineTesterConfig",
+   "module": "tests.pipelines.cosmos.test_cosmos2_video2world",
+   "cls": "Cosmos2VideoToWorldPipelineTesterConfig",
+   "pipeline": "Cosmos2VideoToWorldPipelineWrapper",
+   "family": "cosmos"
+  },
+  {
+   "id": "tests.pipelines.cosmos.test_cosmos3::Cosmos3OmniPipelineTesterConfig",
+   "module": "tests.pipelines.cosmos.test_cosmos3",
+   "cls": "Cosmos3OmniPipelineTesterConfig",
+   "pipeline": "Cosmos3OmniPipeline",
+   "family": "cosmos"
+  },
+  {
+   "id": "tests.pipelines.cosmos.test_cosmos_video2world::CosmosVideoToWorldPipelineTesterConfig",
+   "module": "tests.pipelines.cosmos.test_cosmos_video2world",
+   "cls": "CosmosVideoToWorldPipelineTesterConfig",
+   "pipeline": "CosmosVideoToWorldPipelineWrapper",
+   "family": "cosmos"
+  },
+  {
+   "id": "tests.pipelines.ddim.test_ddim::DDIMPipelineTesterConfig",
+   "module": "tests.pipelines.ddim.test_ddim",
+   "cls": "DDIMPipelineTesterConfig",
+   "pipeline": "DDIMPipeline",
+   "family": "ddim"
+  },
+  {
+   "id": "tests.pipelines.ddpm.test_ddpm::DDPMPipelineTesterConfig",
+   "module": "tests.pipelines.ddpm.test_ddpm",
+   "cls": "DDPMPipelineTesterConfig",
+   "pipeline": "DDPMPipeline",
+   "family": "ddpm"
+  },
+  {
+   "id": "tests.pipelines.deepfloyd_if.test_if::IFPipelineTesterConfig",
+   "module": "tests.pipelines.deepfloyd_if.test_if",
+   "cls": "IFPipelineTesterConfig",
+   "pipeline": "IFPipeline",
+   "family": "deepfloyd_if"
+  },
+  {
+   "id": "tests.pipelines.deepfloyd_if.test_if_img2img::IFImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.deepfloyd_if.test_if_img2img",
+   "cls": "IFImg2ImgPipelineTesterConfig",
+   "pipeline": "IFImg2ImgPipeline",
+   "family": "deepfloyd_if"
+  },
+  {
+   "id": "tests.pipelines.deepfloyd_if.test_if_img2img_superresolution::IFImg2ImgSuperResolutionPipelineTesterConfig",
+   "module": "tests.pipelines.deepfloyd_if.test_if_img2img_superresolution",
+   "cls": "IFImg2ImgSuperResolutionPipelineTesterConfig",
+   "pipeline": "IFImg2ImgSuperResolutionPipeline",
+   "family": "deepfloyd_if"
+  },
+  {
+   "id": "tests.pipelines.deepfloyd_if.test_if_inpainting::IFInpaintingPipelineTesterConfig",
+   "module": "tests.pipelines.deepfloyd_if.test_if_inpainting",
+   "cls": "IFInpaintingPipelineTesterConfig",
+   "pipeline": "IFInpaintingPipeline",
+   "family": "deepfloyd_if"
+  },
+  {
+   "id": "tests.pipelines.deepfloyd_if.test_if_inpainting_superresolution::IFInpaintingSuperResolutionPipelineTesterConfig",
+   "module": "tests.pipelines.deepfloyd_if.test_if_inpainting_superresolution",
+   "cls": "IFInpaintingSuperResolutionPipelineTesterConfig",
+   "pipeline": "IFInpaintingSuperResolutionPipeline",
+   "family": "deepfloyd_if"
+  },
+  {
+   "id": "tests.pipelines.deepfloyd_if.test_if_superresolution::IFSuperResolutionPipelineTesterConfig",
+   "module": "tests.pipelines.deepfloyd_if.test_if_superresolution",
+   "cls": "IFSuperResolutionPipelineTesterConfig",
+   "pipeline": "IFSuperResolutionPipeline",
+   "family": "deepfloyd_if"
+  },
+  {
+   "id": "tests.pipelines.dit.test_dit::DiTPipelineTesterConfig",
+   "module": "tests.pipelines.dit.test_dit",
+   "cls": "DiTPipelineTesterConfig",
+   "pipeline": "DiTPipeline",
+   "family": "dit"
+  },
+  {
+   "id": "tests.pipelines.dreamlite.test_pipeline_dreamlite::DreamLitePipelineTesterConfig",
+   "module": "tests.pipelines.dreamlite.test_pipeline_dreamlite",
+   "cls": "DreamLitePipelineTesterConfig",
+   "pipeline": "DreamLitePipeline",
+   "family": "dreamlite"
+  },
+  {
+   "id": "tests.pipelines.dreamlite.test_pipeline_dreamlite_mobile::DreamLiteMobilePipelineTesterConfig",
+   "module": "tests.pipelines.dreamlite.test_pipeline_dreamlite_mobile",
+   "cls": "DreamLiteMobilePipelineTesterConfig",
+   "pipeline": "DreamLiteMobilePipeline",
+   "family": "dreamlite"
+  },
+  {
+   "id": "tests.pipelines.easyanimate.test_easyanimate::EasyAnimatePipelineTesterConfig",
+   "module": "tests.pipelines.easyanimate.test_easyanimate",
+   "cls": "EasyAnimatePipelineTesterConfig",
+   "pipeline": "EasyAnimatePipeline",
+   "family": "easyanimate"
+  },
+  {
+   "id": "tests.pipelines.flux.test_pipeline_flux::FluxPipelineTesterConfig",
+   "module": "tests.pipelines.flux.test_pipeline_flux",
+   "cls": "FluxPipelineTesterConfig",
+   "pipeline": "FluxPipeline",
+   "family": "flux"
+  },
+  {
+   "id": "tests.pipelines.flux.test_pipeline_flux_control::FluxControlPipelineTesterConfig",
+   "module": "tests.pipelines.flux.test_pipeline_flux_control",
+   "cls": "FluxControlPipelineTesterConfig",
+   "pipeline": "FluxControlPipeline",
+   "family": "flux"
+  },
+  {
+   "id": "tests.pipelines.flux.test_pipeline_flux_control_img2img::FluxControlImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.flux.test_pipeline_flux_control_img2img",
+   "cls": "FluxControlImg2ImgPipelineTesterConfig",
+   "pipeline": "FluxControlImg2ImgPipeline",
+   "family": "flux"
+  },
+  {
+   "id": "tests.pipelines.flux.test_pipeline_flux_control_inpaint::FluxControlInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.flux.test_pipeline_flux_control_inpaint",
+   "cls": "FluxControlInpaintPipelineTesterConfig",
+   "pipeline": "FluxControlInpaintPipeline",
+   "family": "flux"
+  },
+  {
+   "id": "tests.pipelines.flux.test_pipeline_flux_fill::FluxFillPipelineTesterConfig",
+   "module": "tests.pipelines.flux.test_pipeline_flux_fill",
+   "cls": "FluxFillPipelineTesterConfig",
+   "pipeline": "FluxFillPipeline",
+   "family": "flux"
+  },
+  {
+   "id": "tests.pipelines.flux.test_pipeline_flux_img2img::FluxImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.flux.test_pipeline_flux_img2img",
+   "cls": "FluxImg2ImgPipelineTesterConfig",
+   "pipeline": "FluxImg2ImgPipeline",
+   "family": "flux"
+  },
+  {
+   "id": "tests.pipelines.flux.test_pipeline_flux_inpaint::FluxInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.flux.test_pipeline_flux_inpaint",
+   "cls": "FluxInpaintPipelineTesterConfig",
+   "pipeline": "FluxInpaintPipeline",
+   "family": "flux"
+  },
+  {
+   "id": "tests.pipelines.flux.test_pipeline_flux_kontext::FluxKontextPipelineTesterConfig",
+   "module": "tests.pipelines.flux.test_pipeline_flux_kontext",
+   "cls": "FluxKontextPipelineTesterConfig",
+   "pipeline": "FluxKontextPipeline",
+   "family": "flux"
+  },
+  {
+   "id": "tests.pipelines.flux.test_pipeline_flux_kontext_inpaint::FluxKontextInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.flux.test_pipeline_flux_kontext_inpaint",
+   "cls": "FluxKontextInpaintPipelineTesterConfig",
+   "pipeline": "FluxKontextInpaintPipeline",
+   "family": "flux"
+  },
+  {
+   "id": "tests.pipelines.flux2.test_pipeline_flux2::Flux2PipelineTesterConfig",
+   "module": "tests.pipelines.flux2.test_pipeline_flux2",
+   "cls": "Flux2PipelineTesterConfig",
+   "pipeline": "Flux2Pipeline",
+   "family": "flux2"
+  },
+  {
+   "id": "tests.pipelines.flux2.test_pipeline_flux2_klein::Flux2KleinPipelineTesterConfig",
+   "module": "tests.pipelines.flux2.test_pipeline_flux2_klein",
+   "cls": "Flux2KleinPipelineTesterConfig",
+   "pipeline": "Flux2KleinPipeline",
+   "family": "flux2"
+  },
+  {
+   "id": "tests.pipelines.flux2.test_pipeline_flux2_klein_inpaint::Flux2KleinInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.flux2.test_pipeline_flux2_klein_inpaint",
+   "cls": "Flux2KleinInpaintPipelineTesterConfig",
+   "pipeline": "Flux2KleinInpaintPipeline",
+   "family": "flux2"
+  },
+  {
+   "id": "tests.pipelines.flux2.test_pipeline_flux2_klein_kv::Flux2KleinKVPipelineTesterConfig",
+   "module": "tests.pipelines.flux2.test_pipeline_flux2_klein_kv",
+   "cls": "Flux2KleinKVPipelineTesterConfig",
+   "pipeline": "Flux2KleinKVPipeline",
+   "family": "flux2"
+  },
+  {
+   "id": "tests.pipelines.glm_image.test_glm_image::GlmImagePipelineTesterConfig",
+   "module": "tests.pipelines.glm_image.test_glm_image",
+   "cls": "GlmImagePipelineTesterConfig",
+   "pipeline": "GlmImagePipeline",
+   "family": "glm_image"
+  },
+  {
+   "id": "tests.pipelines.helios.test_helios::HeliosPipelineTesterConfig",
+   "module": "tests.pipelines.helios.test_helios",
+   "cls": "HeliosPipelineTesterConfig",
+   "pipeline": "HeliosPipeline",
+   "family": "helios"
+  },
+  {
+   "id": "tests.pipelines.hidream_image.test_pipeline_hidream::HiDreamImagePipelineTesterConfig",
+   "module": "tests.pipelines.hidream_image.test_pipeline_hidream",
+   "cls": "HiDreamImagePipelineTesterConfig",
+   "pipeline": "HiDreamImagePipeline",
+   "family": "hidream_image"
+  },
+  {
+   "id": "tests.pipelines.hunyuan_image_21.test_hunyuanimage::HunyuanImagePipelineTesterConfig",
+   "module": "tests.pipelines.hunyuan_image_21.test_hunyuanimage",
+   "cls": "HunyuanImagePipelineTesterConfig",
+   "pipeline": "HunyuanImagePipeline",
+   "family": "hunyuan_image_21"
+  },
+  {
+   "id": "tests.pipelines.hunyuan_video.test_hunyuan_image2video::HunyuanVideoImageToVideoPipelineTesterConfig",
+   "module": "tests.pipelines.hunyuan_video.test_hunyuan_image2video",
+   "cls": "HunyuanVideoImageToVideoPipelineTesterConfig",
+   "pipeline": "HunyuanVideoImageToVideoPipeline",
+   "family": "hunyuan_video"
+  },
+  {
+   "id": "tests.pipelines.hunyuan_video.test_hunyuan_skyreels_image2video::HunyuanSkyreelsImageToVideoPipelineTesterConfig",
+   "module": "tests.pipelines.hunyuan_video.test_hunyuan_skyreels_image2video",
+   "cls": "HunyuanSkyreelsImageToVideoPipelineTesterConfig",
+   "pipeline": "HunyuanSkyreelsImageToVideoPipeline",
+   "family": "hunyuan_video"
+  },
+  {
+   "id": "tests.pipelines.hunyuan_video.test_hunyuan_video::HunyuanVideoPipelineTesterConfig",
+   "module": "tests.pipelines.hunyuan_video.test_hunyuan_video",
+   "cls": "HunyuanVideoPipelineTesterConfig",
+   "pipeline": "HunyuanVideoPipeline",
+   "family": "hunyuan_video"
+  },
+  {
+   "id": "tests.pipelines.hunyuan_video.test_hunyuan_video_framepack::HunyuanVideoFramepackPipelineTesterConfig",
+   "module": "tests.pipelines.hunyuan_video.test_hunyuan_video_framepack",
+   "cls": "HunyuanVideoFramepackPipelineTesterConfig",
+   "pipeline": "HunyuanVideoFramepackPipeline",
+   "family": "hunyuan_video"
+  },
+  {
+   "id": "tests.pipelines.hunyuan_video1_5.test_hunyuan_1_5::HunyuanVideo15PipelineTesterConfig",
+   "module": "tests.pipelines.hunyuan_video1_5.test_hunyuan_1_5",
+   "cls": "HunyuanVideo15PipelineTesterConfig",
+   "pipeline": "HunyuanVideo15Pipeline",
+   "family": "hunyuan_video1_5"
+  },
+  {
+   "id": "tests.pipelines.hunyuandit.test_hunyuan_dit::HunyuanDiTPipelineTesterConfig",
+   "module": "tests.pipelines.hunyuandit.test_hunyuan_dit",
+   "cls": "HunyuanDiTPipelineTesterConfig",
+   "pipeline": "HunyuanDiTPipeline",
+   "family": "hunyuandit"
+  },
+  {
+   "id": "tests.pipelines.ideogram4.test_pipeline_ideogram4::Ideogram4PipelineTesterConfig",
+   "module": "tests.pipelines.ideogram4.test_pipeline_ideogram4",
+   "cls": "Ideogram4PipelineTesterConfig",
+   "pipeline": "Ideogram4Pipeline",
+   "family": "ideogram4"
+  },
+  {
+   "id": "tests.pipelines.joyimage.test_joyimage_edit::JoyImageEditPipelineTesterConfig",
+   "module": "tests.pipelines.joyimage.test_joyimage_edit",
+   "cls": "JoyImageEditPipelineTesterConfig",
+   "pipeline": "JoyImageEditPipeline",
+   "family": "joyimage"
+  },
+  {
+   "id": "tests.pipelines.joyimage.test_joyimage_edit_plus::JoyImageEditPlusPipelineTesterConfig",
+   "module": "tests.pipelines.joyimage.test_joyimage_edit_plus",
+   "cls": "JoyImageEditPlusPipelineTesterConfig",
+   "pipeline": "JoyImageEditPlusPipeline",
+   "family": "joyimage"
+  },
+  {
+   "id": "tests.pipelines.kandinsky.test_kandinsky::KandinskyPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky.test_kandinsky",
+   "cls": "KandinskyPipelineTesterConfig",
+   "pipeline": "KandinskyPipeline",
+   "family": "kandinsky"
+  },
+  {
+   "id": "tests.pipelines.kandinsky.test_kandinsky_combined::KandinskyCombinedPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky.test_kandinsky_combined",
+   "cls": "KandinskyCombinedPipelineTesterConfig",
+   "pipeline": "KandinskyCombinedPipeline",
+   "family": "kandinsky"
+  },
+  {
+   "id": "tests.pipelines.kandinsky.test_kandinsky_combined::KandinskyImg2ImgCombinedPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky.test_kandinsky_combined",
+   "cls": "KandinskyImg2ImgCombinedPipelineTesterConfig",
+   "pipeline": "KandinskyImg2ImgCombinedPipeline",
+   "family": "kandinsky"
+  },
+  {
+   "id": "tests.pipelines.kandinsky.test_kandinsky_combined::KandinskyInpaintCombinedPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky.test_kandinsky_combined",
+   "cls": "KandinskyInpaintCombinedPipelineTesterConfig",
+   "pipeline": "KandinskyInpaintCombinedPipeline",
+   "family": "kandinsky"
+  },
+  {
+   "id": "tests.pipelines.kandinsky.test_kandinsky_img2img::KandinskyImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky.test_kandinsky_img2img",
+   "cls": "KandinskyImg2ImgPipelineTesterConfig",
+   "pipeline": "KandinskyImg2ImgPipeline",
+   "family": "kandinsky"
+  },
+  {
+   "id": "tests.pipelines.kandinsky.test_kandinsky_inpaint::KandinskyInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky.test_kandinsky_inpaint",
+   "cls": "KandinskyInpaintPipelineTesterConfig",
+   "pipeline": "KandinskyInpaintPipeline",
+   "family": "kandinsky"
+  },
+  {
+   "id": "tests.pipelines.kandinsky.test_kandinsky_prior::KandinskyPriorPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky.test_kandinsky_prior",
+   "cls": "KandinskyPriorPipelineTesterConfig",
+   "pipeline": "KandinskyPriorPipeline",
+   "family": "kandinsky"
+  },
+  {
+   "id": "tests.pipelines.kandinsky2_2.test_kandinsky::KandinskyV22PipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky2_2.test_kandinsky",
+   "cls": "KandinskyV22PipelineTesterConfig",
+   "pipeline": "KandinskyV22Pipeline",
+   "family": "kandinsky2_2"
+  },
+  {
+   "id": "tests.pipelines.kandinsky2_2.test_kandinsky_combined::KandinskyV22CombinedPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky2_2.test_kandinsky_combined",
+   "cls": "KandinskyV22CombinedPipelineTesterConfig",
+   "pipeline": "KandinskyV22CombinedPipeline",
+   "family": "kandinsky2_2"
+  },
+  {
+   "id": "tests.pipelines.kandinsky2_2.test_kandinsky_combined::KandinskyV22Img2ImgCombinedPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky2_2.test_kandinsky_combined",
+   "cls": "KandinskyV22Img2ImgCombinedPipelineTesterConfig",
+   "pipeline": "KandinskyV22Img2ImgCombinedPipeline",
+   "family": "kandinsky2_2"
+  },
+  {
+   "id": "tests.pipelines.kandinsky2_2.test_kandinsky_combined::KandinskyV22InpaintCombinedPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky2_2.test_kandinsky_combined",
+   "cls": "KandinskyV22InpaintCombinedPipelineTesterConfig",
+   "pipeline": "KandinskyV22InpaintCombinedPipeline",
+   "family": "kandinsky2_2"
+  },
+  {
+   "id": "tests.pipelines.kandinsky2_2.test_kandinsky_controlnet::KandinskyV22ControlnetPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky2_2.test_kandinsky_controlnet",
+   "cls": "KandinskyV22ControlnetPipelineTesterConfig",
+   "pipeline": "KandinskyV22ControlnetPipeline",
+   "family": "kandinsky2_2"
+  },
+  {
+   "id": "tests.pipelines.kandinsky2_2.test_kandinsky_controlnet_img2img::KandinskyV22ControlnetImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky2_2.test_kandinsky_controlnet_img2img",
+   "cls": "KandinskyV22ControlnetImg2ImgPipelineTesterConfig",
+   "pipeline": "KandinskyV22ControlnetImg2ImgPipeline",
+   "family": "kandinsky2_2"
+  },
+  {
+   "id": "tests.pipelines.kandinsky2_2.test_kandinsky_img2img::KandinskyV22Img2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky2_2.test_kandinsky_img2img",
+   "cls": "KandinskyV22Img2ImgPipelineTesterConfig",
+   "pipeline": "KandinskyV22Img2ImgPipeline",
+   "family": "kandinsky2_2"
+  },
+  {
+   "id": "tests.pipelines.kandinsky2_2.test_kandinsky_inpaint::KandinskyV22InpaintPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky2_2.test_kandinsky_inpaint",
+   "cls": "KandinskyV22InpaintPipelineTesterConfig",
+   "pipeline": "KandinskyV22InpaintPipeline",
+   "family": "kandinsky2_2"
+  },
+  {
+   "id": "tests.pipelines.kandinsky2_2.test_kandinsky_prior::KandinskyV22PriorPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky2_2.test_kandinsky_prior",
+   "cls": "KandinskyV22PriorPipelineTesterConfig",
+   "pipeline": "KandinskyV22PriorPipeline",
+   "family": "kandinsky2_2"
+  },
+  {
+   "id": "tests.pipelines.kandinsky2_2.test_kandinsky_prior_emb2emb::KandinskyV22PriorEmb2EmbPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky2_2.test_kandinsky_prior_emb2emb",
+   "cls": "KandinskyV22PriorEmb2EmbPipelineTesterConfig",
+   "pipeline": "KandinskyV22PriorEmb2EmbPipeline",
+   "family": "kandinsky2_2"
+  },
+  {
+   "id": "tests.pipelines.kandinsky3.test_kandinsky3::Kandinsky3PipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky3.test_kandinsky3",
+   "cls": "Kandinsky3PipelineTesterConfig",
+   "pipeline": "Kandinsky3Pipeline",
+   "family": "kandinsky3"
+  },
+  {
+   "id": "tests.pipelines.kandinsky3.test_kandinsky3_img2img::Kandinsky3Img2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky3.test_kandinsky3_img2img",
+   "cls": "Kandinsky3Img2ImgPipelineTesterConfig",
+   "pipeline": "Kandinsky3Img2ImgPipeline",
+   "family": "kandinsky3"
+  },
+  {
+   "id": "tests.pipelines.kandinsky5.test_kandinsky5::Kandinsky5T2VPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky5.test_kandinsky5",
+   "cls": "Kandinsky5T2VPipelineTesterConfig",
+   "pipeline": "Kandinsky5T2VPipeline",
+   "family": "kandinsky5"
+  },
+  {
+   "id": "tests.pipelines.kandinsky5.test_kandinsky5_i2i::Kandinsky5I2IPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky5.test_kandinsky5_i2i",
+   "cls": "Kandinsky5I2IPipelineTesterConfig",
+   "pipeline": "Kandinsky5I2IPipeline",
+   "family": "kandinsky5"
+  },
+  {
+   "id": "tests.pipelines.kandinsky5.test_kandinsky5_i2v::Kandinsky5I2VPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky5.test_kandinsky5_i2v",
+   "cls": "Kandinsky5I2VPipelineTesterConfig",
+   "pipeline": "Kandinsky5I2VPipeline",
+   "family": "kandinsky5"
+  },
+  {
+   "id": "tests.pipelines.kandinsky5.test_kandinsky5_t2i::Kandinsky5T2IPipelineTesterConfig",
+   "module": "tests.pipelines.kandinsky5.test_kandinsky5_t2i",
+   "cls": "Kandinsky5T2IPipelineTesterConfig",
+   "pipeline": "Kandinsky5T2IPipeline",
+   "family": "kandinsky5"
+  },
+  {
+   "id": "tests.pipelines.kolors.test_kolors::KolorsPipelineTesterConfig",
+   "module": "tests.pipelines.kolors.test_kolors",
+   "cls": "KolorsPipelineTesterConfig",
+   "pipeline": "KolorsPipeline",
+   "family": "kolors"
+  },
+  {
+   "id": "tests.pipelines.kolors.test_kolors_img2img::KolorsImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.kolors.test_kolors_img2img",
+   "cls": "KolorsImg2ImgPipelineTesterConfig",
+   "pipeline": "KolorsImg2ImgPipeline",
+   "family": "kolors"
+  },
+  {
+   "id": "tests.pipelines.krea2.test_krea2::Krea2PipelineTesterConfig",
+   "module": "tests.pipelines.krea2.test_krea2",
+   "cls": "Krea2PipelineTesterConfig",
+   "pipeline": "Krea2Pipeline",
+   "family": "krea2"
+  },
+  {
+   "id": "tests.pipelines.latent_consistency_models.test_latent_consistency_models::LatentConsistencyModelPipelineTesterConfig",
+   "module": "tests.pipelines.latent_consistency_models.test_latent_consistency_models",
+   "cls": "LatentConsistencyModelPipelineTesterConfig",
+   "pipeline": "LatentConsistencyModelPipeline",
+   "family": "latent_consistency_models"
+  },
+  {
+   "id": "tests.pipelines.latent_consistency_models.test_latent_consistency_models_img2img::LatentConsistencyModelImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.latent_consistency_models.test_latent_consistency_models_img2img",
+   "cls": "LatentConsistencyModelImg2ImgPipelineTesterConfig",
+   "pipeline": "LatentConsistencyModelImg2ImgPipeline",
+   "family": "latent_consistency_models"
+  },
+  {
+   "id": "tests.pipelines.latent_diffusion.test_latent_diffusion::LDMTextToImagePipelineTesterConfig",
+   "module": "tests.pipelines.latent_diffusion.test_latent_diffusion",
+   "cls": "LDMTextToImagePipelineTesterConfig",
+   "pipeline": "LDMTextToImagePipeline",
+   "family": "latent_diffusion"
+  },
+  {
+   "id": "tests.pipelines.latent_diffusion.test_latent_diffusion_superresolution::LDMSuperResolutionPipelineTesterConfig",
+   "module": "tests.pipelines.latent_diffusion.test_latent_diffusion_superresolution",
+   "cls": "LDMSuperResolutionPipelineTesterConfig",
+   "pipeline": "LDMSuperResolutionPipeline",
+   "family": "latent_diffusion"
+  },
+  {
+   "id": "tests.pipelines.latte.test_latte::LattePipelineTesterConfig",
+   "module": "tests.pipelines.latte.test_latte",
+   "cls": "LattePipelineTesterConfig",
+   "pipeline": "LattePipeline",
+   "family": "latte"
+  },
+  {
+   "id": "tests.pipelines.longcat_audio_dit.test_longcat_audio_dit::LongCatAudioDiTPipelineTesterConfig",
+   "module": "tests.pipelines.longcat_audio_dit.test_longcat_audio_dit",
+   "cls": "LongCatAudioDiTPipelineTesterConfig",
+   "pipeline": "LongCatAudioDiTPipeline",
+   "family": "longcat_audio_dit"
+  },
+  {
+   "id": "tests.pipelines.ltx.test_ltx::LTXPipelineTesterConfig",
+   "module": "tests.pipelines.ltx.test_ltx",
+   "cls": "LTXPipelineTesterConfig",
+   "pipeline": "LTXPipeline",
+   "family": "ltx"
+  },
+  {
+   "id": "tests.pipelines.ltx.test_ltx_condition::LTXConditionPipelineTesterConfig",
+   "module": "tests.pipelines.ltx.test_ltx_condition",
+   "cls": "LTXConditionPipelineTesterConfig",
+   "pipeline": "LTXConditionPipeline",
+   "family": "ltx"
+  },
+  {
+   "id": "tests.pipelines.ltx.test_ltx_image2video::LTXImageToVideoPipelineTesterConfig",
+   "module": "tests.pipelines.ltx.test_ltx_image2video",
+   "cls": "LTXImageToVideoPipelineTesterConfig",
+   "pipeline": "LTXImageToVideoPipeline",
+   "family": "ltx"
+  },
+  {
+   "id": "tests.pipelines.ltx.test_ltx_latent_upsample::LTXLatentUpsamplePipelineTesterConfig",
+   "module": "tests.pipelines.ltx.test_ltx_latent_upsample",
+   "cls": "LTXLatentUpsamplePipelineTesterConfig",
+   "pipeline": "LTXLatentUpsamplePipeline",
+   "family": "ltx"
+  },
+  {
+   "id": "tests.pipelines.ltx2.test_ltx2::LTX2PipelineTesterConfig",
+   "module": "tests.pipelines.ltx2.test_ltx2",
+   "cls": "LTX2PipelineTesterConfig",
+   "pipeline": "LTX2Pipeline",
+   "family": "ltx2"
+  },
+  {
+   "id": "tests.pipelines.ltx2.test_ltx2_condition::LTX2ConditionPipelineTesterConfig",
+   "module": "tests.pipelines.ltx2.test_ltx2_condition",
+   "cls": "LTX2ConditionPipelineTesterConfig",
+   "pipeline": "LTX2ConditionPipeline",
+   "family": "ltx2"
+  },
+  {
+   "id": "tests.pipelines.ltx2.test_ltx2_hdr::LTX2HDRPipelineTesterConfig",
+   "module": "tests.pipelines.ltx2.test_ltx2_hdr",
+   "cls": "LTX2HDRPipelineTesterConfig",
+   "pipeline": "LTX2HDRPipeline",
+   "family": "ltx2"
+  },
+  {
+   "id": "tests.pipelines.ltx2.test_ltx2_hdr::TestLTX2HDRPipeline",
+   "module": "tests.pipelines.ltx2.test_ltx2_hdr",
+   "cls": "TestLTX2HDRPipeline",
+   "pipeline": "LTX2HDRPipeline",
+   "family": "ltx2"
+  },
+  {
+   "id": "tests.pipelines.ltx2.test_ltx2_image2video::LTX2ImageToVideoPipelineTesterConfig",
+   "module": "tests.pipelines.ltx2.test_ltx2_image2video",
+   "cls": "LTX2ImageToVideoPipelineTesterConfig",
+   "pipeline": "LTX2ImageToVideoPipeline",
+   "family": "ltx2"
+  },
+  {
+   "id": "tests.pipelines.ltx2.test_ltx2_in_context::LTX2InContextPipelineTesterConfig",
+   "module": "tests.pipelines.ltx2.test_ltx2_in_context",
+   "cls": "LTX2InContextPipelineTesterConfig",
+   "pipeline": "LTX2InContextPipeline",
+   "family": "ltx2"
+  },
+  {
+   "id": "tests.pipelines.ltx2.test_pipeline_ltx2_dfr::LTX2DFRPipelineTesterConfig",
+   "module": "tests.pipelines.ltx2.test_pipeline_ltx2_dfr",
+   "cls": "LTX2DFRPipelineTesterConfig",
+   "pipeline": "LTX2DFRPipeline",
+   "family": "ltx2"
+  },
+  {
+   "id": "tests.pipelines.ltx2.test_pipeline_ltx2_dfr_temporal_refine::LTX2DFRTemporalRefinePipelineTesterConfig",
+   "module": "tests.pipelines.ltx2.test_pipeline_ltx2_dfr_temporal_refine",
+   "cls": "LTX2DFRTemporalRefinePipelineTesterConfig",
+   "pipeline": "LTX2DFRTemporalRefinePipeline",
+   "family": "ltx2"
+  },
+  {
+   "id": "tests.pipelines.lumina.test_lumina_nextdit::LuminaPipelineTesterConfig",
+   "module": "tests.pipelines.lumina.test_lumina_nextdit",
+   "cls": "LuminaPipelineTesterConfig",
+   "pipeline": "LuminaPipeline",
+   "family": "lumina"
+  },
+  {
+   "id": "tests.pipelines.lumina2.test_pipeline_lumina2::Lumina2PipelineTesterConfig",
+   "module": "tests.pipelines.lumina2.test_pipeline_lumina2",
+   "cls": "Lumina2PipelineTesterConfig",
+   "pipeline": "Lumina2Pipeline",
+   "family": "lumina2"
+  },
+  {
+   "id": "tests.pipelines.marigold.test_marigold_depth::MarigoldDepthPipelineTesterConfig",
+   "module": "tests.pipelines.marigold.test_marigold_depth",
+   "cls": "MarigoldDepthPipelineTesterConfig",
+   "pipeline": "MarigoldDepthPipeline",
+   "family": "marigold"
+  },
+  {
+   "id": "tests.pipelines.marigold.test_marigold_intrinsics::MarigoldIntrinsicsPipelineTesterConfig",
+   "module": "tests.pipelines.marigold.test_marigold_intrinsics",
+   "cls": "MarigoldIntrinsicsPipelineTesterConfig",
+   "pipeline": "MarigoldIntrinsicsPipeline",
+   "family": "marigold"
+  },
+  {
+   "id": "tests.pipelines.marigold.test_marigold_normals::MarigoldNormalsPipelineTesterConfig",
+   "module": "tests.pipelines.marigold.test_marigold_normals",
+   "cls": "MarigoldNormalsPipelineTesterConfig",
+   "pipeline": "MarigoldNormalsPipeline",
+   "family": "marigold"
+  },
+  {
+   "id": "tests.pipelines.mochi.test_mochi::MochiPipelineTesterConfig",
+   "module": "tests.pipelines.mochi.test_mochi",
+   "cls": "MochiPipelineTesterConfig",
+   "pipeline": "MochiPipeline",
+   "family": "mochi"
+  },
+  {
+   "id": "tests.pipelines.motif_video.test_motif_video::MotifVideoPipelineTesterConfig",
+   "module": "tests.pipelines.motif_video.test_motif_video",
+   "cls": "MotifVideoPipelineTesterConfig",
+   "pipeline": "MotifVideoPipeline",
+   "family": "motif_video"
+  },
+  {
+   "id": "tests.pipelines.motif_video.test_motif_video_image2video::MotifVideoImage2VideoPipelineTesterConfig",
+   "module": "tests.pipelines.motif_video.test_motif_video_image2video",
+   "cls": "MotifVideoImage2VideoPipelineTesterConfig",
+   "pipeline": "MotifVideoImage2VideoPipeline",
+   "family": "motif_video"
+  },
+  {
+   "id": "tests.pipelines.nucleusmoe_image.test_nucleusmoe_image::NucleusMoEImagePipelineTesterConfig",
+   "module": "tests.pipelines.nucleusmoe_image.test_nucleusmoe_image",
+   "cls": "NucleusMoEImagePipelineTesterConfig",
+   "pipeline": "NucleusMoEImagePipeline",
+   "family": "nucleusmoe_image"
+  },
+  {
+   "id": "tests.pipelines.omnigen.test_pipeline_omnigen::OmniGenPipelineTesterConfig",
+   "module": "tests.pipelines.omnigen.test_pipeline_omnigen",
+   "cls": "OmniGenPipelineTesterConfig",
+   "pipeline": "OmniGenPipeline",
+   "family": "omnigen"
+  },
+  {
+   "id": "tests.pipelines.ovis_image.test_ovis_image::OvisImagePipelineTesterConfig",
+   "module": "tests.pipelines.ovis_image.test_ovis_image",
+   "cls": "OvisImagePipelineTesterConfig",
+   "pipeline": "OvisImagePipeline",
+   "family": "ovis_image"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_animatediff::AnimateDiffPAGPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_animatediff",
+   "cls": "AnimateDiffPAGPipelineTesterConfig",
+   "pipeline": "AnimateDiffPAGPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_controlnet_sd::StableDiffusionControlNetPAGPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_controlnet_sd",
+   "cls": "StableDiffusionControlNetPAGPipelineTesterConfig",
+   "pipeline": "StableDiffusionControlNetPAGPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_controlnet_sd_inpaint::StableDiffusionControlNetPAGInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_controlnet_sd_inpaint",
+   "cls": "StableDiffusionControlNetPAGInpaintPipelineTesterConfig",
+   "pipeline": "StableDiffusionControlNetPAGInpaintPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_controlnet_sdxl::StableDiffusionXLControlNetPAGPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_controlnet_sdxl",
+   "cls": "StableDiffusionXLControlNetPAGPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLControlNetPAGPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_controlnet_sdxl_img2img::StableDiffusionXLControlNetPAGImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_controlnet_sdxl_img2img",
+   "cls": "StableDiffusionXLControlNetPAGImg2ImgPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLControlNetPAGImg2ImgPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_hunyuan_dit::HunyuanDiTPAGPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_hunyuan_dit",
+   "cls": "HunyuanDiTPAGPipelineTesterConfig",
+   "pipeline": "HunyuanDiTPAGPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_kolors::KolorsPAGPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_kolors",
+   "cls": "KolorsPAGPipelineTesterConfig",
+   "pipeline": "KolorsPAGPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_pixart_sigma::PixArtSigmaPAGPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_pixart_sigma",
+   "cls": "PixArtSigmaPAGPipelineTesterConfig",
+   "pipeline": "PixArtSigmaPAGPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_sana::SanaPAGPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_sana",
+   "cls": "SanaPAGPipelineTesterConfig",
+   "pipeline": "SanaPAGPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_sd::StableDiffusionPAGPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_sd",
+   "cls": "StableDiffusionPAGPipelineTesterConfig",
+   "pipeline": "StableDiffusionPAGPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_sd3::StableDiffusion3PAGPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_sd3",
+   "cls": "StableDiffusion3PAGPipelineTesterConfig",
+   "pipeline": "StableDiffusion3PAGPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_sd3_img2img::StableDiffusion3PAGImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_sd3_img2img",
+   "cls": "StableDiffusion3PAGImg2ImgPipelineTesterConfig",
+   "pipeline": "StableDiffusion3PAGImg2ImgPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_sd_img2img::StableDiffusionPAGImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_sd_img2img",
+   "cls": "StableDiffusionPAGImg2ImgPipelineTesterConfig",
+   "pipeline": "StableDiffusionPAGImg2ImgPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_sd_inpaint::StableDiffusionPAGInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_sd_inpaint",
+   "cls": "StableDiffusionPAGInpaintPipelineTesterConfig",
+   "pipeline": "StableDiffusionPAGInpaintPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_sdxl::StableDiffusionXLPAGPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_sdxl",
+   "cls": "StableDiffusionXLPAGPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLPAGPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_sdxl_img2img::StableDiffusionXLPAGImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_sdxl_img2img",
+   "cls": "StableDiffusionXLPAGImg2ImgPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLPAGImg2ImgPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pag.test_pag_sdxl_inpaint::StableDiffusionXLPAGInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.pag.test_pag_sdxl_inpaint",
+   "cls": "StableDiffusionXLPAGInpaintPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLPAGInpaintPipeline",
+   "family": "pag"
+  },
+  {
+   "id": "tests.pipelines.pixart_alpha.test_pixart::PixArtAlphaPipelineTesterConfig",
+   "module": "tests.pipelines.pixart_alpha.test_pixart",
+   "cls": "PixArtAlphaPipelineTesterConfig",
+   "pipeline": "PixArtAlphaPipeline",
+   "family": "pixart_alpha"
+  },
+  {
+   "id": "tests.pipelines.pixart_sigma.test_pixart::PixArtSigmaPipelineTesterConfig",
+   "module": "tests.pipelines.pixart_sigma.test_pixart",
+   "cls": "PixArtSigmaPipelineTesterConfig",
+   "pipeline": "PixArtSigmaPipeline",
+   "family": "pixart_sigma"
+  },
+  {
+   "id": "tests.pipelines.pndm.test_pndm::PNDMPipelineTesterConfig",
+   "module": "tests.pipelines.pndm.test_pndm",
+   "cls": "PNDMPipelineTesterConfig",
+   "pipeline": "PNDMPipeline",
+   "family": "pndm"
+  },
+  {
+   "id": "tests.pipelines.prx.test_pipeline_prx::PRXPipelineTesterConfig",
+   "module": "tests.pipelines.prx.test_pipeline_prx",
+   "cls": "PRXPipelineTesterConfig",
+   "pipeline": "PRXPipeline",
+   "family": "prx"
+  },
+  {
+   "id": "tests.pipelines.prx.test_pipeline_prx_pixel::PRXPixelPipelineTesterConfig",
+   "module": "tests.pipelines.prx.test_pipeline_prx_pixel",
+   "cls": "PRXPixelPipelineTesterConfig",
+   "pipeline": "PRXPixelPipeline",
+   "family": "prx"
+  },
+  {
+   "id": "tests.pipelines.qwenimage.test_qwenimage::QwenImagePipelineTesterConfig",
+   "module": "tests.pipelines.qwenimage.test_qwenimage",
+   "cls": "QwenImagePipelineTesterConfig",
+   "pipeline": "QwenImagePipeline",
+   "family": "qwenimage"
+  },
+  {
+   "id": "tests.pipelines.qwenimage.test_qwenimage_controlnet::QwenImageControlNetPipelineTesterConfig",
+   "module": "tests.pipelines.qwenimage.test_qwenimage_controlnet",
+   "cls": "QwenImageControlNetPipelineTesterConfig",
+   "pipeline": "QwenImageControlNetPipeline",
+   "family": "qwenimage"
+  },
+  {
+   "id": "tests.pipelines.qwenimage.test_qwenimage_edit::QwenImageEditPipelineTesterConfig",
+   "module": "tests.pipelines.qwenimage.test_qwenimage_edit",
+   "cls": "QwenImageEditPipelineTesterConfig",
+   "pipeline": "QwenImageEditPipeline",
+   "family": "qwenimage"
+  },
+  {
+   "id": "tests.pipelines.qwenimage.test_qwenimage_edit_plus::QwenImageEditPlusPipelineTesterConfig",
+   "module": "tests.pipelines.qwenimage.test_qwenimage_edit_plus",
+   "cls": "QwenImageEditPlusPipelineTesterConfig",
+   "pipeline": "QwenImageEditPlusPipeline",
+   "family": "qwenimage"
+  },
+  {
+   "id": "tests.pipelines.qwenimage.test_qwenimage_img2img::QwenImageImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.qwenimage.test_qwenimage_img2img",
+   "cls": "QwenImageImg2ImgPipelineTesterConfig",
+   "pipeline": "QwenImageImg2ImgPipeline",
+   "family": "qwenimage"
+  },
+  {
+   "id": "tests.pipelines.qwenimage.test_qwenimage_inpaint::QwenImageInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.qwenimage.test_qwenimage_inpaint",
+   "cls": "QwenImageInpaintPipelineTesterConfig",
+   "pipeline": "QwenImageInpaintPipeline",
+   "family": "qwenimage"
+  },
+  {
+   "id": "tests.pipelines.qwenimage21.test_qwenimage21::QwenImage21PipelineTesterConfig",
+   "module": "tests.pipelines.qwenimage21.test_qwenimage21",
+   "cls": "QwenImage21PipelineTesterConfig",
+   "pipeline": "QwenImage21Pipeline",
+   "family": "qwenimage21"
+  },
+  {
+   "id": "tests.pipelines.sana.test_sana::SanaPipelineTesterConfig",
+   "module": "tests.pipelines.sana.test_sana",
+   "cls": "SanaPipelineTesterConfig",
+   "pipeline": "SanaPipeline",
+   "family": "sana"
+  },
+  {
+   "id": "tests.pipelines.sana.test_sana_controlnet::SanaControlNetPipelineTesterConfig",
+   "module": "tests.pipelines.sana.test_sana_controlnet",
+   "cls": "SanaControlNetPipelineTesterConfig",
+   "pipeline": "SanaControlNetPipeline",
+   "family": "sana"
+  },
+  {
+   "id": "tests.pipelines.sana.test_sana_sprint::SanaSprintPipelineTesterConfig",
+   "module": "tests.pipelines.sana.test_sana_sprint",
+   "cls": "SanaSprintPipelineTesterConfig",
+   "pipeline": "SanaSprintPipeline",
+   "family": "sana"
+  },
+  {
+   "id": "tests.pipelines.sana.test_sana_sprint_img2img::SanaSprintImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.sana.test_sana_sprint_img2img",
+   "cls": "SanaSprintImg2ImgPipelineTesterConfig",
+   "pipeline": "SanaSprintImg2ImgPipeline",
+   "family": "sana"
+  },
+  {
+   "id": "tests.pipelines.sana_video.test_sana_video::SanaVideoPipelineTesterConfig",
+   "module": "tests.pipelines.sana_video.test_sana_video",
+   "cls": "SanaVideoPipelineTesterConfig",
+   "pipeline": "SanaVideoPipeline",
+   "family": "sana_video"
+  },
+  {
+   "id": "tests.pipelines.sana_video.test_sana_video_i2v::SanaImageToVideoPipelineTesterConfig",
+   "module": "tests.pipelines.sana_video.test_sana_video_i2v",
+   "cls": "SanaImageToVideoPipelineTesterConfig",
+   "pipeline": "SanaImageToVideoPipeline",
+   "family": "sana_video"
+  },
+  {
+   "id": "tests.pipelines.shap_e.test_shap_e::ShapEPipelineTesterConfig",
+   "module": "tests.pipelines.shap_e.test_shap_e",
+   "cls": "ShapEPipelineTesterConfig",
+   "pipeline": "ShapEPipeline",
+   "family": "shap_e"
+  },
+  {
+   "id": "tests.pipelines.shap_e.test_shap_e_img2img::ShapEImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.shap_e.test_shap_e_img2img",
+   "cls": "ShapEImg2ImgPipelineTesterConfig",
+   "pipeline": "ShapEImg2ImgPipeline",
+   "family": "shap_e"
+  },
+  {
+   "id": "tests.pipelines.skyreels_v2.test_skyreels_v2::SkyReelsV2PipelineTesterConfig",
+   "module": "tests.pipelines.skyreels_v2.test_skyreels_v2",
+   "cls": "SkyReelsV2PipelineTesterConfig",
+   "pipeline": "SkyReelsV2Pipeline",
+   "family": "skyreels_v2"
+  },
+  {
+   "id": "tests.pipelines.skyreels_v2.test_skyreels_v2_df::SkyReelsV2DiffusionForcingPipelineTesterConfig",
+   "module": "tests.pipelines.skyreels_v2.test_skyreels_v2_df",
+   "cls": "SkyReelsV2DiffusionForcingPipelineTesterConfig",
+   "pipeline": "SkyReelsV2DiffusionForcingPipeline",
+   "family": "skyreels_v2"
+  },
+  {
+   "id": "tests.pipelines.skyreels_v2.test_skyreels_v2_df_image_to_video::SkyReelsV2DiffusionForcingImageToVideoPipelineTesterConfig",
+   "module": "tests.pipelines.skyreels_v2.test_skyreels_v2_df_image_to_video",
+   "cls": "SkyReelsV2DiffusionForcingImageToVideoPipelineTesterConfig",
+   "pipeline": "SkyReelsV2DiffusionForcingImageToVideoPipeline",
+   "family": "skyreels_v2"
+  },
+  {
+   "id": "tests.pipelines.skyreels_v2.test_skyreels_v2_df_image_to_video::SkyReelsV2DiffusionForcingImageToVideoWithLastImagePipelineTesterConfig",
+   "module": "tests.pipelines.skyreels_v2.test_skyreels_v2_df_image_to_video",
+   "cls": "SkyReelsV2DiffusionForcingImageToVideoWithLastImagePipelineTesterConfig",
+   "pipeline": "SkyReelsV2DiffusionForcingImageToVideoPipeline",
+   "family": "skyreels_v2"
+  },
+  {
+   "id": "tests.pipelines.skyreels_v2.test_skyreels_v2_df_video_to_video::SkyReelsV2DiffusionForcingVideoToVideoPipelineTesterConfig",
+   "module": "tests.pipelines.skyreels_v2.test_skyreels_v2_df_video_to_video",
+   "cls": "SkyReelsV2DiffusionForcingVideoToVideoPipelineTesterConfig",
+   "pipeline": "SkyReelsV2DiffusionForcingVideoToVideoPipeline",
+   "family": "skyreels_v2"
+  },
+  {
+   "id": "tests.pipelines.skyreels_v2.test_skyreels_v2_image_to_video::SkyReelsV2ImageToVideoPipelineTesterConfig",
+   "module": "tests.pipelines.skyreels_v2.test_skyreels_v2_image_to_video",
+   "cls": "SkyReelsV2ImageToVideoPipelineTesterConfig",
+   "pipeline": "SkyReelsV2ImageToVideoPipeline",
+   "family": "skyreels_v2"
+  },
+  {
+   "id": "tests.pipelines.stable_audio.test_stable_audio::StableAudioPipelineTesterConfig",
+   "module": "tests.pipelines.stable_audio.test_stable_audio",
+   "cls": "StableAudioPipelineTesterConfig",
+   "pipeline": "StableAudioPipeline",
+   "family": "stable_audio"
+  },
+  {
+   "id": "tests.pipelines.stable_audio_3.test_stable_audio_3::StableAudio3PipelineTesterConfig",
+   "module": "tests.pipelines.stable_audio_3.test_stable_audio_3",
+   "cls": "StableAudio3PipelineTesterConfig",
+   "pipeline": "StableAudio3Pipeline",
+   "family": "stable_audio_3"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion.test_stable_diffusion::StableDiffusionPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion.test_stable_diffusion",
+   "cls": "StableDiffusionPipelineTesterConfig",
+   "pipeline": "StableDiffusionPipeline",
+   "family": "stable_diffusion"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion.test_stable_diffusion_img2img::StableDiffusionImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion.test_stable_diffusion_img2img",
+   "cls": "StableDiffusionImg2ImgPipelineTesterConfig",
+   "pipeline": "StableDiffusionImg2ImgPipeline",
+   "family": "stable_diffusion"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion.test_stable_diffusion_inpaint::StableDiffusionInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion.test_stable_diffusion_inpaint",
+   "cls": "StableDiffusionInpaintPipelineTesterConfig",
+   "pipeline": "StableDiffusionInpaintPipeline",
+   "family": "stable_diffusion"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion.test_stable_diffusion_inpaint::StableDiffusionSimpleInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion.test_stable_diffusion_inpaint",
+   "cls": "StableDiffusionSimpleInpaintPipelineTesterConfig",
+   "pipeline": "StableDiffusionInpaintPipeline",
+   "family": "stable_diffusion"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion.test_stable_diffusion_instruction_pix2pix::StableDiffusionInstructPix2PixPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion.test_stable_diffusion_instruction_pix2pix",
+   "cls": "StableDiffusionInstructPix2PixPipelineTesterConfig",
+   "pipeline": "StableDiffusionInstructPix2PixPipeline",
+   "family": "stable_diffusion"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_2.test_stable_diffusion::StableDiffusion2PipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_2.test_stable_diffusion",
+   "cls": "StableDiffusion2PipelineTesterConfig",
+   "pipeline": "StableDiffusionPipeline",
+   "family": "stable_diffusion_2"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_2.test_stable_diffusion_depth::StableDiffusionDepth2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_2.test_stable_diffusion_depth",
+   "cls": "StableDiffusionDepth2ImgPipelineTesterConfig",
+   "pipeline": "StableDiffusionDepth2ImgPipeline",
+   "family": "stable_diffusion_2"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_2.test_stable_diffusion_inpaint::StableDiffusion2InpaintPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_2.test_stable_diffusion_inpaint",
+   "cls": "StableDiffusion2InpaintPipelineTesterConfig",
+   "pipeline": "StableDiffusionInpaintPipeline",
+   "family": "stable_diffusion_2"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_2.test_stable_diffusion_latent_upscale::StableDiffusionLatentUpscalePipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_2.test_stable_diffusion_latent_upscale",
+   "cls": "StableDiffusionLatentUpscalePipelineTesterConfig",
+   "pipeline": "StableDiffusionLatentUpscalePipeline",
+   "family": "stable_diffusion_2"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_2.test_stable_diffusion_upscale::StableDiffusionUpscalePipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_2.test_stable_diffusion_upscale",
+   "cls": "StableDiffusionUpscalePipelineTesterConfig",
+   "pipeline": "StableDiffusionUpscalePipeline",
+   "family": "stable_diffusion_2"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_2.test_stable_diffusion_v_pred::StableDiffusion2VPredictionPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_2.test_stable_diffusion_v_pred",
+   "cls": "StableDiffusion2VPredictionPipelineTesterConfig",
+   "pipeline": "StableDiffusionPipeline",
+   "family": "stable_diffusion_2"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_3.test_pipeline_stable_diffusion_3::StableDiffusion3PipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_3.test_pipeline_stable_diffusion_3",
+   "cls": "StableDiffusion3PipelineTesterConfig",
+   "pipeline": "StableDiffusion3Pipeline",
+   "family": "stable_diffusion_3"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_3.test_pipeline_stable_diffusion_3_img2img::StableDiffusion3Img2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_3.test_pipeline_stable_diffusion_3_img2img",
+   "cls": "StableDiffusion3Img2ImgPipelineTesterConfig",
+   "pipeline": "StableDiffusion3Img2ImgPipeline",
+   "family": "stable_diffusion_3"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_3.test_pipeline_stable_diffusion_3_inpaint::StableDiffusion3InpaintPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_3.test_pipeline_stable_diffusion_3_inpaint",
+   "cls": "StableDiffusion3InpaintPipelineTesterConfig",
+   "pipeline": "StableDiffusion3InpaintPipeline",
+   "family": "stable_diffusion_3"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_image_variation.test_stable_diffusion_image_variation::StableDiffusionImageVariationPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_image_variation.test_stable_diffusion_image_variation",
+   "cls": "StableDiffusionImageVariationPipelineTesterConfig",
+   "pipeline": "StableDiffusionImageVariationPipeline",
+   "family": "stable_diffusion_image_variation"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl::StableDiffusionXLPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl",
+   "cls": "StableDiffusionXLPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLPipeline",
+   "family": "stable_diffusion_xl"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_adapter::StableDiffusionXLAdapterPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_adapter",
+   "cls": "StableDiffusionXLAdapterPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLAdapterPipeline",
+   "family": "stable_diffusion_xl"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_adapter::StableDiffusionXLMultiAdapterPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_adapter",
+   "cls": "StableDiffusionXLMultiAdapterPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLAdapterPipeline",
+   "family": "stable_diffusion_xl"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_img2img::StableDiffusionXLImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_img2img",
+   "cls": "StableDiffusionXLImg2ImgPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLImg2ImgPipeline",
+   "family": "stable_diffusion_xl"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_img2img::StableDiffusionXLImg2ImgRefinerOnlyPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_img2img",
+   "cls": "StableDiffusionXLImg2ImgRefinerOnlyPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLImg2ImgPipeline",
+   "family": "stable_diffusion_xl"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_inpaint::StableDiffusionXLInpaintPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_inpaint",
+   "cls": "StableDiffusionXLInpaintPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLInpaintPipeline",
+   "family": "stable_diffusion_xl"
+  },
+  {
+   "id": "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_instruction_pix2pix::StableDiffusionXLInstructPix2PixPipelineTesterConfig",
+   "module": "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_instruction_pix2pix",
+   "cls": "StableDiffusionXLInstructPix2PixPipelineTesterConfig",
+   "pipeline": "StableDiffusionXLInstructPix2PixPipeline",
+   "family": "stable_diffusion_xl"
+  },
+  {
+   "id": "tests.pipelines.stable_unclip.test_stable_unclip::StableUnCLIPPipelineTesterConfig",
+   "module": "tests.pipelines.stable_unclip.test_stable_unclip",
+   "cls": "StableUnCLIPPipelineTesterConfig",
+   "pipeline": "StableUnCLIPPipeline",
+   "family": "stable_unclip"
+  },
+  {
+   "id": "tests.pipelines.stable_unclip.test_stable_unclip_img2img::StableUnCLIPImg2ImgPipelineTesterConfig",
+   "module": "tests.pipelines.stable_unclip.test_stable_unclip_img2img",
+   "cls": "StableUnCLIPImg2ImgPipelineTesterConfig",
+   "pipeline": "StableUnCLIPImg2ImgPipeline",
+   "family": "stable_unclip"
+  },
+  {
+   "id": "tests.pipelines.stable_video_diffusion.test_stable_video_diffusion::StableVideoDiffusionPipelineTesterConfig",
+   "module": "tests.pipelines.stable_video_diffusion.test_stable_video_diffusion",
+   "cls": "StableVideoDiffusionPipelineTesterConfig",
+   "pipeline": "StableVideoDiffusionPipeline",
+   "family": "stable_video_diffusion"
+  },
+  {
+   "id": "tests.pipelines.visualcloze.test_pipeline_visualcloze_combined::TestVisualClozePipeline",
+   "module": "tests.pipelines.visualcloze.test_pipeline_visualcloze_combined",
+   "cls": "TestVisualClozePipeline",
+   "pipeline": "VisualClozePipeline",
+   "family": "visualcloze"
+  },
+  {
+   "id": "tests.pipelines.visualcloze.test_pipeline_visualcloze_generation::TestVisualClozeGenerationPipeline",
+   "module": "tests.pipelines.visualcloze.test_pipeline_visualcloze_generation",
+   "cls": "TestVisualClozeGenerationPipeline",
+   "pipeline": "VisualClozeGenerationPipeline",
+   "family": "visualcloze"
+  },
+  {
+   "id": "tests.pipelines.wan.test_wan::TestWanPipeline",
+   "module": "tests.pipelines.wan.test_wan",
+   "cls": "TestWanPipeline",
+   "pipeline": "WanPipeline",
+   "family": "wan"
+  },
+  {
+   "id": "tests.pipelines.wan.test_wan_22::TestWan225BPipeline",
+   "module": "tests.pipelines.wan.test_wan_22",
+   "cls": "TestWan225BPipeline",
+   "pipeline": "WanPipeline",
+   "family": "wan"
+  },
+  {
+   "id": "tests.pipelines.wan.test_wan_22::TestWan22Pipeline",
+   "module": "tests.pipelines.wan.test_wan_22",
+   "cls": "TestWan22Pipeline",
+   "pipeline": "WanPipeline",
+   "family": "wan"
+  },
+  {
+   "id": "tests.pipelines.wan.test_wan_22_image_to_video::TestWan225BImageToVideoPipeline",
+   "module": "tests.pipelines.wan.test_wan_22_image_to_video",
+   "cls": "TestWan225BImageToVideoPipeline",
+   "pipeline": "WanImageToVideoPipeline",
+   "family": "wan"
+  },
+  {
+   "id": "tests.pipelines.wan.test_wan_22_image_to_video::TestWan22ImageToVideoPipeline",
+   "module": "tests.pipelines.wan.test_wan_22_image_to_video",
+   "cls": "TestWan22ImageToVideoPipeline",
+   "pipeline": "WanImageToVideoPipeline",
+   "family": "wan"
+  },
+  {
+   "id": "tests.pipelines.wan.test_wan_animate::TestWanAnimatePipeline",
+   "module": "tests.pipelines.wan.test_wan_animate",
+   "cls": "TestWanAnimatePipeline",
+   "pipeline": "WanAnimatePipeline",
+   "family": "wan"
+  },
+  {
+   "id": "tests.pipelines.wan.test_wan_image_to_video::TestWanFLFToVideoPipeline",
+   "module": "tests.pipelines.wan.test_wan_image_to_video",
+   "cls": "TestWanFLFToVideoPipeline",
+   "pipeline": "WanImageToVideoPipeline",
+   "family": "wan"
+  },
+  {
+   "id": "tests.pipelines.wan.test_wan_image_to_video::TestWanImageToVideoPipeline",
+   "module": "tests.pipelines.wan.test_wan_image_to_video",
+   "cls": "TestWanImageToVideoPipeline",
+   "pipeline": "WanImageToVideoPipeline",
+   "family": "wan"
+  },
+  {
+   "id": "tests.pipelines.wan.test_wan_vace::TestWanVACEPipeline",
+   "module": "tests.pipelines.wan.test_wan_vace",
+   "cls": "TestWanVACEPipeline",
+   "pipeline": "WanVACEPipeline",
+   "family": "wan"
+  },
+  {
+   "id": "tests.pipelines.wan.test_wan_video_to_video::TestWanVideoToVideoPipeline",
+   "module": "tests.pipelines.wan.test_wan_video_to_video",
+   "cls": "TestWanVideoToVideoPipeline",
+   "pipeline": "WanVideoToVideoPipeline",
+   "family": "wan"
+  },
+  {
+   "id": "tests.pipelines.z_image.test_z_image::TestZImagePipeline",
+   "module": "tests.pipelines.z_image.test_z_image",
+   "cls": "TestZImagePipeline",
+   "pipeline": "ZImagePipeline",
+   "family": "z_image"
+  },
+  {
+   "id": "tests.pipelines.z_image.test_z_image_img2img::TestZImageImg2ImgPipeline",
+   "module": "tests.pipelines.z_image.test_z_image_img2img",
+   "cls": "TestZImageImg2ImgPipeline",
+   "pipeline": "ZImageImg2ImgPipeline",
+   "family": "z_image"
+  },
+  {
+   "id": "tests.pipelines.z_image.test_z_image_inpaint::TestZImageInpaintPipeline",
+   "module": "tests.pipelines.z_image.test_z_image_inpaint",
+   "cls": "TestZImageInpaintPipeline",
+   "pipeline": "ZImageInpaintPipeline",
+   "family": "z_image"
+  }
+ ],
+ "import_errors": []
+}

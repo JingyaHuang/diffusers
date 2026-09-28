@@ -1,0 +1,27 @@
+{
+ "pipeline": "LTXPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.03989168704720214,
+ "tpu_first_call_s": 3.750221694994252,
+ "tpu_time_s": 0.0681423190399073,
+ "output_shape": [
+  1,
+  9,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.006090402603149414,
+ "mean_abs_diff": 0.0010266462340950966,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.ltx.test_ltx::LTXPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 15.2768610889907,
+ "family": "ltx",
+ "log": "logs/smoke/eager/ltx_test_ltx__LTXPipelineTesterConfig.log",
+ "chip": 5,
+ "job_wall_s": 21.223610244051088
+}

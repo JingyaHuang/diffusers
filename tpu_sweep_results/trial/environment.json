@@ -1,0 +1,19 @@
+{
+ "date": "2026-09-25",
+ "started_at": "2026-09-25T15:14:44+0000",
+ "host": "81251d99ba4b",
+ "python": "3.14.7",
+ "git_branch": "torchtpu-sweep",
+ "git_commit": "5d6ad2249569ca1e6631aee8d215f77f10f005f0",
+ "git_dirty": false,
+ "versions": {
+  "torch": "2.13.0+cpu",
+  "torch_tpu": "0.1.1",
+  "libtpu": "0.0.48",
+  "diffusers": "0.41.0.dev0",
+  "transformers": "5.17.0",
+  "accelerate": "1.15.0"
+ },
+ "tpu_chips": "8",
+ "tpu_accelerator_type": "v6e-8"
+}

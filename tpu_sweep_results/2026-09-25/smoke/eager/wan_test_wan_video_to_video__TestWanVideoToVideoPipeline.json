@@ -1,0 +1,27 @@
+{
+ "pipeline": "WanVideoToVideoPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.10576120798941702,
+ "tpu_first_call_s": 5.3915143519989215,
+ "tpu_time_s": 0.911310047027655,
+ "output_shape": [
+  1,
+  17,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.07582053542137146,
+ "mean_abs_diff": 0.0026378915645182133,
+ "ref_max_abs": 0.691049337387085,
+ "status": "pass",
+ "id": "tests.pipelines.wan.test_wan_video_to_video::TestWanVideoToVideoPipeline",
+ "mode": "eager",
+ "wall_s": 17.110660382953938,
+ "family": "wan",
+ "log": "logs/smoke/eager/wan_test_wan_video_to_video__TestWanVideoToVideoPipeline.log",
+ "chip": 4,
+ "job_wall_s": 22.476310566999018
+}

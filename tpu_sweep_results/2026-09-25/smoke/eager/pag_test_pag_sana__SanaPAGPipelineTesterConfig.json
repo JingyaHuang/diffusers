@@ -1,0 +1,26 @@
+{
+ "pipeline": "SanaPAGPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 1.3093312819837593,
+ "tpu_first_call_s": 10.459639168984722,
+ "tpu_time_s": 0.13042682799277827,
+ "output_shape": [
+  1,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.0899013876914978,
+ "mean_abs_diff": 0.0022865913342684507,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.pag.test_pag_sana::SanaPAGPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 23.370563147007488,
+ "family": "pag",
+ "log": "logs/smoke/eager/pag_test_pag_sana__SanaPAGPipelineTesterConfig.log",
+ "chip": 1,
+ "job_wall_s": 29.262892958999146
+}

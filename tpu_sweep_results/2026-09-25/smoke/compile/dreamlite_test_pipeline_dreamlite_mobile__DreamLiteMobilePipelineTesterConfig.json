@@ -1,0 +1,31 @@
+{
+ "pipeline": "DreamLiteMobilePipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.2630081759998575,
+ "compiled": [
+  "vae.decode/encode",
+  "unet"
+ ],
+ "tpu_first_call_s": 23.13239888800308,
+ "tpu_time_s": 0.025356729980558157,
+ "output_shape": [
+  1,
+  3,
+  64,
+  64
+ ],
+ "finite": false,
+ "max_abs_diff": null,
+ "mean_abs_diff": null,
+ "ref_max_abs": 0.27171024680137634,
+ "reason": "TPU output contains non-finite values",
+ "status": "fail",
+ "id": "tests.pipelines.dreamlite.test_pipeline_dreamlite_mobile::DreamLiteMobilePipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 42.244430179998744,
+ "family": "dreamlite",
+ "log": "logs/smoke/compile/dreamlite_test_pipeline_dreamlite_mobile__DreamLiteMobilePipelineTesterConfig.log",
+ "chip": 4,
+ "job_wall_s": 48.14871167601086
+}

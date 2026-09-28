@@ -1,0 +1,27 @@
+{
+ "pipeline": "MarigoldNormalsPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.05954638903494924,
+ "tpu_first_call_s": 1.315191600995604,
+ "tpu_time_s": 0.0823427090072073,
+ "output_shape": [
+  1,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.18834906816482544,
+ "mean_abs_diff": 0.007065648213028908,
+ "ref_max_abs": 0.9997990727424622,
+ "reason": "output differs from CPU beyond atol=rtol=0.1",
+ "status": "fail",
+ "id": "tests.pipelines.marigold.test_marigold_normals::MarigoldNormalsPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 14.1891637169756,
+ "family": "marigold",
+ "log": "logs/smoke/eager/marigold_test_marigold_normals__MarigoldNormalsPipelineTesterConfig.log",
+ "chip": 7,
+ "job_wall_s": 18.698739481973462
+}

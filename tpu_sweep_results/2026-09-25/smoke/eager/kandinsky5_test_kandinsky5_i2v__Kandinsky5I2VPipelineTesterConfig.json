@@ -1,0 +1,27 @@
+{
+ "pipeline": "Kandinsky5I2VPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.37359610403655097,
+ "tpu_first_call_s": 8.882260411977768,
+ "tpu_time_s": 0.12651052803266793,
+ "output_shape": [
+  1,
+  17,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.02186429500579834,
+ "mean_abs_diff": 0.0022573983296751976,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.kandinsky5.test_kandinsky5_i2v::Kandinsky5I2VPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 28.62778712803265,
+ "family": "kandinsky5",
+ "log": "logs/smoke/eager/kandinsky5_test_kandinsky5_i2v__Kandinsky5I2VPipelineTesterConfig.log",
+ "chip": 3,
+ "job_wall_s": 38.24310748995049
+}

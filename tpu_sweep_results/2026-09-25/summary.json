@@ -1,0 +1,479 @@
+{
+ "environment": {
+  "date": "2026-09-25",
+  "started_at": "2026-09-25T15:15:54+0000",
+  "host": "81251d99ba4b",
+  "python": "3.14.7",
+  "git_branch": "torchtpu-sweep",
+  "git_commit": "5d6ad2249569ca1e6631aee8d215f77f10f005f0",
+  "git_dirty": false,
+  "versions": {
+   "torch": "2.13.0+cpu",
+   "torch_tpu": "0.1.1",
+   "libtpu": "0.0.48",
+   "diffusers": "0.41.0.dev0",
+   "transformers": "5.17.0",
+   "accelerate": "1.15.0"
+  },
+  "tpu_chips": "8",
+  "tpu_accelerator_type": "v6e-8"
+ },
+ "totals": {
+  "smoke/compile": {
+   "pass": 51,
+   "fail": 15,
+   "error": 172,
+   "skipped": 0
+  },
+  "smoke/eager": {
+   "pass": 185,
+   "fail": 14,
+   "error": 39,
+   "skipped": 0
+  },
+  "tp/compile": {
+   "pass": 2,
+   "fail": 0,
+   "error": 1,
+   "skipped": 0
+  },
+  "tp/eager": {
+   "pass": 3,
+   "fail": 0,
+   "error": 0,
+   "skipped": 0
+  }
+ },
+ "error_clusters": [
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "BackendCompilerFailed > RuntimeError: view(): cannot create a view of shape [\u2026] from the input tensor of shape [\u2026] and strides [\u2026]; consider creating a new tensor using reshape() instead of taking a view",
+   "count": 122,
+   "ids": [
+    "tests.pipelines.animatediff.test_animatediff::AnimateDiffPipelineTesterConfig",
+    "tests.pipelines.animatediff.test_animatediff_controlnet::AnimateDiffControlNetPipelineTesterConfig",
+    "tests.pipelines.animatediff.test_animatediff_sdxl::AnimateDiffSDXLPipelineTesterConfig",
+    "tests.pipelines.animatediff.test_animatediff_sparsectrl::AnimateDiffSparseControlNetPipelineTesterConfig",
+    "tests.pipelines.animatediff.test_animatediff_video2video::AnimateDiffVideoToVideoPipelineTesterConfig",
+    "tests.pipelines.animatediff.test_animatediff_video2video_controlnet::AnimateDiffVideoToVideoControlNetPipelineTesterConfig",
+    "tests.pipelines.audioldm2.test_audioldm2::AudioLDM2PipelineTesterConfig",
+    "tests.pipelines.aura_flow.test_pipeline_aura_flow::AuraFlowPipelineTesterConfig",
+    "tests.pipelines.chroma.test_pipeline_chroma_img2img::ChromaImg2ImgPipelineTesterConfig",
+    "tests.pipelines.cogview3.test_cogview3plus::CogView3PlusPipelineTesterConfig",
+    "tests.pipelines.consistency_models.test_consistency_models::ConsistencyModelPipelineTesterConfig",
+    "tests.pipelines.controlnet.test_controlnet::ControlNetPipelineTesterConfig",
+    "tests.pipelines.controlnet.test_controlnet::StableDiffusionMultiControlNetOneModelPipelineTesterConfig",
+    "tests.pipelines.controlnet.test_controlnet::StableDiffusionMultiControlNetPipelineTesterConfig",
+    "tests.pipelines.controlnet.test_controlnet_img2img::ControlNetImg2ImgPipelineTesterConfig",
+    "tests.pipelines.controlnet.test_controlnet_img2img::StableDiffusionMultiControlNetImg2ImgPipelineTesterConfig",
+    "tests.pipelines.controlnet.test_controlnet_inpaint::ControlNetInpaintPipelineTesterConfig",
+    "tests.pipelines.controlnet.test_controlnet_inpaint::ControlNetSimpleInpaintPipelineTesterConfig",
+    "tests.pipelines.controlnet.test_controlnet_inpaint::MultiControlNetInpaintPipelineTesterConfig",
+    "tests.pipelines.controlnet.test_controlnet_inpaint_sdxl::StableDiffusionXLControlNetInpaintPipelineTesterConfig",
+    "tests.pipelines.controlnet.test_controlnet_sdxl::StableDiffusionSSD1BControlNetPipelineTesterConfig",
+    "tests.pipelines.controlnet.test_controlnet_sdxl::StableDiffusionXLControlNetPipelineTesterConfig",
+    "tests.pipelines.controlnet.test_controlnet_sdxl::StableDiffusionXLMultiControlNetOneModelPipelineTesterConfig",
+    "tests.pipelines.controlnet.test_controlnet_sdxl::StableDiffusionXLMultiControlNetPipelineTesterConfig",
+    "tests.pipelines.controlnet.test_controlnet_sdxl_img2img::StableDiffusionXLControlNetImg2ImgPipelineTesterConfig",
+    "tests.pipelines.controlnet_flux.test_controlnet_flux::FluxControlNetPipelineTesterConfig",
+    "tests.pipelines.controlnet_flux.test_controlnet_flux_img2img::FluxControlNetImg2ImgPipelineTesterConfig",
+    "tests.pipelines.controlnet_flux.test_controlnet_flux_inpaint::FluxControlNetInpaintPipelineTesterConfig",
+    "tests.pipelines.controlnet_hunyuandit.test_controlnet_hunyuandit::HunyuanDiTControlNetPipelineTesterConfig",
+    "tests.pipelines.controlnet_sd3.test_controlnet_inpaint_sd3::StableDiffusion3ControlNetInpaintingPipelineTesterConfig",
+    "tests.pipelines.controlnet_sd3.test_controlnet_sd3::StableDiffusion3ControlNetPipelineTesterConfig",
+    "tests.pipelines.ddim.test_ddim::DDIMPipelineTesterConfig",
+    "tests.pipelines.ddpm.test_ddpm::DDPMPipelineTesterConfig",
+    "tests.pipelines.deepfloyd_if.test_if::IFPipelineTesterConfig",
+    "tests.pipelines.deepfloyd_if.test_if_img2img::IFImg2ImgPipelineTesterConfig",
+    "tests.pipelines.deepfloyd_if.test_if_img2img_superresolution::IFImg2ImgSuperResolutionPipelineTesterConfig",
+    "tests.pipelines.deepfloyd_if.test_if_inpainting::IFInpaintingPipelineTesterConfig",
+    "tests.pipelines.deepfloyd_if.test_if_inpainting_superresolution::IFInpaintingSuperResolutionPipelineTesterConfig",
+    "tests.pipelines.deepfloyd_if.test_if_superresolution::IFSuperResolutionPipelineTesterConfig",
+    "tests.pipelines.dit.test_dit::DiTPipelineTesterConfig",
+    "tests.pipelines.flux.test_pipeline_flux::FluxPipelineTesterConfig",
+    "tests.pipelines.flux.test_pipeline_flux_control::FluxControlPipelineTesterConfig",
+    "tests.pipelines.flux.test_pipeline_flux_control_img2img::FluxControlImg2ImgPipelineTesterConfig",
+    "tests.pipelines.flux.test_pipeline_flux_control_inpaint::FluxControlInpaintPipelineTesterConfig",
+    "tests.pipelines.flux.test_pipeline_flux_fill::FluxFillPipelineTesterConfig",
+    "tests.pipelines.flux.test_pipeline_flux_img2img::FluxImg2ImgPipelineTesterConfig",
+    "tests.pipelines.flux.test_pipeline_flux_inpaint::FluxInpaintPipelineTesterConfig",
+    "tests.pipelines.flux.test_pipeline_flux_kontext::FluxKontextPipelineTesterConfig",
+    "tests.pipelines.flux.test_pipeline_flux_kontext_inpaint::FluxKontextInpaintPipelineTesterConfig",
+    "tests.pipelines.flux2.test_pipeline_flux2::Flux2PipelineTesterConfig",
+    "tests.pipelines.flux2.test_pipeline_flux2_klein::Flux2KleinPipelineTesterConfig",
+    "tests.pipelines.flux2.test_pipeline_flux2_klein_inpaint::Flux2KleinInpaintPipelineTesterConfig",
+    "tests.pipelines.flux2.test_pipeline_flux2_klein_kv::Flux2KleinKVPipelineTesterConfig",
+    "tests.pipelines.hunyuandit.test_hunyuan_dit::HunyuanDiTPipelineTesterConfig",
+    "tests.pipelines.ideogram4.test_pipeline_ideogram4::Ideogram4PipelineTesterConfig",
+    "tests.pipelines.kandinsky.test_kandinsky::KandinskyPipelineTesterConfig",
+    "tests.pipelines.kandinsky2_2.test_kandinsky::KandinskyV22PipelineTesterConfig",
+    "tests.pipelines.kandinsky2_2.test_kandinsky_controlnet::KandinskyV22ControlnetPipelineTesterConfig",
+    "tests.pipelines.kolors.test_kolors::KolorsPipelineTesterConfig",
+    "tests.pipelines.kolors.test_kolors_img2img::KolorsImg2ImgPipelineTesterConfig",
+    "tests.pipelines.latent_consistency_models.test_latent_consistency_models::LatentConsistencyModelPipelineTesterConfig",
+    "tests.pipelines.latent_consistency_models.test_latent_consistency_models_img2img::LatentConsistencyModelImg2ImgPipelineTesterConfig",
+    "tests.pipelines.latent_diffusion.test_latent_diffusion_superresolution::LDMSuperResolutionPipelineTesterConfig",
+    "tests.pipelines.latte.test_latte::LattePipelineTesterConfig",
+    "tests.pipelines.marigold.test_marigold_depth::MarigoldDepthPipelineTesterConfig",
+    "tests.pipelines.marigold.test_marigold_intrinsics::MarigoldIntrinsicsPipelineTesterConfig",
+    "tests.pipelines.marigold.test_marigold_normals::MarigoldNormalsPipelineTesterConfig",
+    "tests.pipelines.ovis_image.test_ovis_image::OvisImagePipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_animatediff::AnimateDiffPAGPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_controlnet_sd::StableDiffusionControlNetPAGPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_controlnet_sd_inpaint::StableDiffusionControlNetPAGInpaintPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_controlnet_sdxl::StableDiffusionXLControlNetPAGPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_controlnet_sdxl_img2img::StableDiffusionXLControlNetPAGImg2ImgPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_hunyuan_dit::HunyuanDiTPAGPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_kolors::KolorsPAGPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_pixart_sigma::PixArtSigmaPAGPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_sd3::StableDiffusion3PAGPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_sd3_img2img::StableDiffusion3PAGImg2ImgPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_sd::StableDiffusionPAGPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_sd_img2img::StableDiffusionPAGImg2ImgPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_sd_inpaint::StableDiffusionPAGInpaintPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_sdxl::StableDiffusionXLPAGPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_sdxl_img2img::StableDiffusionXLPAGImg2ImgPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_sdxl_inpaint::StableDiffusionXLPAGInpaintPipelineTesterConfig",
+    "tests.pipelines.pixart_alpha.test_pixart::PixArtAlphaPipelineTesterConfig",
+    "tests.pipelines.pixart_sigma.test_pixart::PixArtSigmaPipelineTesterConfig",
+    "tests.pipelines.pndm.test_pndm::PNDMPipelineTesterConfig",
+    "tests.pipelines.prx.test_pipeline_prx::PRXPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion.test_stable_diffusion::StableDiffusionPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion.test_stable_diffusion_img2img::StableDiffusionImg2ImgPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion.test_stable_diffusion_inpaint::StableDiffusionInpaintPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion.test_stable_diffusion_inpaint::StableDiffusionSimpleInpaintPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion.test_stable_diffusion_instruction_pix2pix::StableDiffusionInstructPix2PixPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_2.test_stable_diffusion::StableDiffusion2PipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_2.test_stable_diffusion_depth::StableDiffusionDepth2ImgPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_2.test_stable_diffusion_inpaint::StableDiffusion2InpaintPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_2.test_stable_diffusion_latent_upscale::StableDiffusionLatentUpscalePipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_2.test_stable_diffusion_upscale::StableDiffusionUpscalePipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_2.test_stable_diffusion_v_pred::StableDiffusion2VPredictionPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_3.test_pipeline_stable_diffusion_3::StableDiffusion3PipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_3.test_pipeline_stable_diffusion_3_img2img::StableDiffusion3Img2ImgPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_3.test_pipeline_stable_diffusion_3_inpaint::StableDiffusion3InpaintPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_image_variation.test_stable_diffusion_image_variation::StableDiffusionImageVariationPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl::StableDiffusionXLPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_adapter::StableDiffusionXLAdapterPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_adapter::StableDiffusionXLMultiAdapterPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_img2img::StableDiffusionXLImg2ImgPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_img2img::StableDiffusionXLImg2ImgRefinerOnlyPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_inpaint::StableDiffusionXLInpaintPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_xl.test_stable_diffusion_xl_instruction_pix2pix::StableDiffusionXLInstructPix2PixPipelineTesterConfig",
+    "tests.pipelines.stable_unclip.test_stable_unclip::StableUnCLIPPipelineTesterConfig",
+    "tests.pipelines.stable_unclip.test_stable_unclip_img2img::StableUnCLIPImg2ImgPipelineTesterConfig",
+    "tests.pipelines.stable_video_diffusion.test_stable_video_diffusion::StableVideoDiffusionPipelineTesterConfig",
+    "tests.pipelines.visualcloze.test_pipeline_visualcloze_combined::TestVisualClozePipeline",
+    "tests.pipelines.visualcloze.test_pipeline_visualcloze_generation::TestVisualClozeGenerationPipeline",
+    "tests.pipelines.z_image.test_z_image_img2img::TestZImageImg2ImgPipeline",
+    "tests.pipelines.z_image.test_z_image_inpaint::TestZImageInpaintPipeline",
+    "utils.tpu_sweep.extra_configs::LEditsPPStableDiffusionConfig",
+    "utils.tpu_sweep.extra_configs::LEditsPPStableDiffusionXLConfig",
+    "utils.tpu_sweep.extra_configs::StableDiffusionFullAdapterConfig",
+    "utils.tpu_sweep.extra_configs::StableDiffusionLightAdapterConfig",
+    "utils.tpu_sweep.extra_configs::StableDiffusionMultiAdapterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/eager",
+   "signature": "RuntimeError: view(): cannot create a view of shape [\u2026] from the input tensor of shape [\u2026] and strides [\u2026]; consider creating a new tensor using reshape() instead of taking a view",
+   "count": 38,
+   "ids": [
+    "tests.pipelines.animatediff.test_animatediff::AnimateDiffPipelineTesterConfig",
+    "tests.pipelines.animatediff.test_animatediff_controlnet::AnimateDiffControlNetPipelineTesterConfig",
+    "tests.pipelines.animatediff.test_animatediff_sdxl::AnimateDiffSDXLPipelineTesterConfig",
+    "tests.pipelines.animatediff.test_animatediff_sparsectrl::AnimateDiffSparseControlNetPipelineTesterConfig",
+    "tests.pipelines.animatediff.test_animatediff_video2video::AnimateDiffVideoToVideoPipelineTesterConfig",
+    "tests.pipelines.animatediff.test_animatediff_video2video_controlnet::AnimateDiffVideoToVideoControlNetPipelineTesterConfig",
+    "tests.pipelines.consistency_models.test_consistency_models::ConsistencyModelPipelineTesterConfig",
+    "tests.pipelines.controlnet_hunyuandit.test_controlnet_hunyuandit::HunyuanDiTControlNetPipelineTesterConfig",
+    "tests.pipelines.controlnet_sd3.test_controlnet_sd3::StableDiffusion3ControlNetPipelineTesterConfig",
+    "tests.pipelines.ddim.test_ddim::DDIMPipelineTesterConfig",
+    "tests.pipelines.ddpm.test_ddpm::DDPMPipelineTesterConfig",
+    "tests.pipelines.deepfloyd_if.test_if::IFPipelineTesterConfig",
+    "tests.pipelines.deepfloyd_if.test_if_img2img::IFImg2ImgPipelineTesterConfig",
+    "tests.pipelines.deepfloyd_if.test_if_img2img_superresolution::IFImg2ImgSuperResolutionPipelineTesterConfig",
+    "tests.pipelines.deepfloyd_if.test_if_inpainting::IFInpaintingPipelineTesterConfig",
+    "tests.pipelines.deepfloyd_if.test_if_inpainting_superresolution::IFInpaintingSuperResolutionPipelineTesterConfig",
+    "tests.pipelines.deepfloyd_if.test_if_superresolution::IFSuperResolutionPipelineTesterConfig",
+    "tests.pipelines.kandinsky.test_kandinsky::KandinskyPipelineTesterConfig",
+    "tests.pipelines.kandinsky.test_kandinsky_combined::KandinskyCombinedPipelineTesterConfig",
+    "tests.pipelines.kandinsky.test_kandinsky_combined::KandinskyImg2ImgCombinedPipelineTesterConfig",
+    "tests.pipelines.kandinsky.test_kandinsky_combined::KandinskyInpaintCombinedPipelineTesterConfig",
+    "tests.pipelines.kandinsky.test_kandinsky_img2img::KandinskyImg2ImgPipelineTesterConfig",
+    "tests.pipelines.kandinsky.test_kandinsky_inpaint::KandinskyInpaintPipelineTesterConfig",
+    "tests.pipelines.kandinsky2_2.test_kandinsky::KandinskyV22PipelineTesterConfig",
+    "tests.pipelines.kandinsky2_2.test_kandinsky_combined::KandinskyV22CombinedPipelineTesterConfig",
+    "tests.pipelines.kandinsky2_2.test_kandinsky_combined::KandinskyV22Img2ImgCombinedPipelineTesterConfig",
+    "tests.pipelines.kandinsky2_2.test_kandinsky_combined::KandinskyV22InpaintCombinedPipelineTesterConfig",
+    "tests.pipelines.kandinsky2_2.test_kandinsky_controlnet::KandinskyV22ControlnetPipelineTesterConfig",
+    "tests.pipelines.kandinsky2_2.test_kandinsky_controlnet_img2img::KandinskyV22ControlnetImg2ImgPipelineTesterConfig",
+    "tests.pipelines.kandinsky2_2.test_kandinsky_img2img::KandinskyV22Img2ImgPipelineTesterConfig",
+    "tests.pipelines.kandinsky2_2.test_kandinsky_inpaint::KandinskyV22InpaintPipelineTesterConfig",
+    "tests.pipelines.kandinsky3.test_kandinsky3::Kandinsky3PipelineTesterConfig",
+    "tests.pipelines.kandinsky3.test_kandinsky3_img2img::Kandinsky3Img2ImgPipelineTesterConfig",
+    "tests.pipelines.latent_diffusion.test_latent_diffusion_superresolution::LDMSuperResolutionPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_animatediff::AnimateDiffPAGPipelineTesterConfig",
+    "tests.pipelines.pndm.test_pndm::PNDMPipelineTesterConfig",
+    "tests.pipelines.stable_diffusion_2.test_stable_diffusion_latent_upscale::StableDiffusionLatentUpscalePipelineTesterConfig",
+    "utils.tpu_sweep.extra_configs::LEditsPPStableDiffusionConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "RuntimeError: execute(): failed to prepare compiled mode arguments: failed to get buffer from argument tensor: shape=[\u2026], strides=[\u2026], numel=N, dtype=N, device=cpu, is_contiguous=N, is_cpu=N, is_cuda=N, is_meta=N, storag",
+   "count": 15,
+   "ids": [
+    "tests.pipelines.consisid.test_consisid::ConsisIDPipelineTesterConfig",
+    "tests.pipelines.helios.test_helios::HeliosPipelineTesterConfig",
+    "tests.pipelines.kandinsky5.test_kandinsky5::Kandinsky5T2VPipelineTesterConfig",
+    "tests.pipelines.kandinsky5.test_kandinsky5_i2i::Kandinsky5I2IPipelineTesterConfig",
+    "tests.pipelines.kandinsky5.test_kandinsky5_i2v::Kandinsky5I2VPipelineTesterConfig",
+    "tests.pipelines.kandinsky5.test_kandinsky5_t2i::Kandinsky5T2IPipelineTesterConfig",
+    "tests.pipelines.lumina.test_lumina_nextdit::LuminaPipelineTesterConfig",
+    "tests.pipelines.nucleusmoe_image.test_nucleusmoe_image::NucleusMoEImagePipelineTesterConfig",
+    "tests.pipelines.qwenimage.test_qwenimage::QwenImagePipelineTesterConfig",
+    "tests.pipelines.qwenimage.test_qwenimage_controlnet::QwenImageControlNetPipelineTesterConfig",
+    "tests.pipelines.qwenimage.test_qwenimage_edit::QwenImageEditPipelineTesterConfig",
+    "tests.pipelines.qwenimage.test_qwenimage_edit_plus::QwenImageEditPlusPipelineTesterConfig",
+    "tests.pipelines.qwenimage.test_qwenimage_img2img::QwenImageImg2ImgPipelineTesterConfig",
+    "tests.pipelines.qwenimage.test_qwenimage_inpaint::QwenImageInpaintPipelineTesterConfig",
+    "tests.pipelines.stable_audio.test_stable_audio::StableAudioPipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "TPU output contains non-finite values",
+   "count": 11,
+   "ids": [
+    "tests.pipelines.dreamlite.test_pipeline_dreamlite::DreamLitePipelineTesterConfig",
+    "tests.pipelines.dreamlite.test_pipeline_dreamlite_mobile::DreamLiteMobilePipelineTesterConfig",
+    "tests.pipelines.ltx2.test_ltx2::LTX2PipelineTesterConfig",
+    "tests.pipelines.ltx2.test_ltx2_condition::LTX2ConditionPipelineTesterConfig",
+    "tests.pipelines.ltx2.test_ltx2_hdr::LTX2HDRPipelineTesterConfig",
+    "tests.pipelines.ltx2.test_ltx2_hdr::TestLTX2HDRPipeline",
+    "tests.pipelines.ltx2.test_ltx2_image2video::LTX2ImageToVideoPipelineTesterConfig",
+    "tests.pipelines.ltx2.test_ltx2_in_context::LTX2InContextPipelineTesterConfig",
+    "tests.pipelines.ltx2.test_pipeline_ltx2_dfr::LTX2DFRPipelineTesterConfig",
+    "tests.pipelines.pag.test_pag_sana::SanaPAGPipelineTesterConfig",
+    "tests.pipelines.sana.test_sana_sprint::SanaSprintPipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/eager",
+   "signature": "output differs from CPU beyond atol=rtol=N",
+   "count": 8,
+   "ids": [
+    "tests.pipelines.glm_image.test_glm_image::GlmImagePipelineTesterConfig",
+    "tests.pipelines.kandinsky5.test_kandinsky5_i2i::Kandinsky5I2IPipelineTesterConfig",
+    "tests.pipelines.kolors.test_kolors::KolorsPipelineTesterConfig",
+    "tests.pipelines.kolors.test_kolors_img2img::KolorsImg2ImgPipelineTesterConfig",
+    "tests.pipelines.ltx2.test_ltx2_hdr::LTX2HDRPipelineTesterConfig",
+    "tests.pipelines.ltx2.test_ltx2_hdr::TestLTX2HDRPipeline",
+    "tests.pipelines.pag.test_pag_kolors::KolorsPAGPipelineTesterConfig",
+    "utils.tpu_sweep.extra_configs::DiffusionGemmaConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "RuntimeError: view(): cannot create a view of shape [\u2026] from the input tensor of shape [\u2026] and strides [\u2026]; consider creating a new tensor using reshape() instead of taking a view",
+   "count": 7,
+   "ids": [
+    "tests.pipelines.kandinsky.test_kandinsky_img2img::KandinskyImg2ImgPipelineTesterConfig",
+    "tests.pipelines.kandinsky.test_kandinsky_inpaint::KandinskyInpaintPipelineTesterConfig",
+    "tests.pipelines.kandinsky2_2.test_kandinsky_controlnet_img2img::KandinskyV22ControlnetImg2ImgPipelineTesterConfig",
+    "tests.pipelines.kandinsky2_2.test_kandinsky_img2img::KandinskyV22Img2ImgPipelineTesterConfig",
+    "tests.pipelines.kandinsky2_2.test_kandinsky_inpaint::KandinskyV22InpaintPipelineTesterConfig",
+    "tests.pipelines.kandinsky3.test_kandinsky3::Kandinsky3PipelineTesterConfig",
+    "tests.pipelines.kandinsky3.test_kandinsky3_img2img::Kandinsky3Img2ImgPipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "FailOnRecompileLimitHit: Hard failure due to fullgraph=True",
+   "count": 6,
+   "ids": [
+    "tests.pipelines.kandinsky.test_kandinsky_combined::KandinskyCombinedPipelineTesterConfig",
+    "tests.pipelines.kandinsky.test_kandinsky_combined::KandinskyImg2ImgCombinedPipelineTesterConfig",
+    "tests.pipelines.kandinsky.test_kandinsky_combined::KandinskyInpaintCombinedPipelineTesterConfig",
+    "tests.pipelines.kandinsky2_2.test_kandinsky_combined::KandinskyV22CombinedPipelineTesterConfig",
+    "tests.pipelines.kandinsky2_2.test_kandinsky_combined::KandinskyV22Img2ImgCombinedPipelineTesterConfig",
+    "tests.pipelines.kandinsky2_2.test_kandinsky_combined::KandinskyV22InpaintCombinedPipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "TorchTPU fatal: Check failed: traversal->ValidateAndReorderArguments(std::move(argument_refs)) is OK (INVALID_ARGUMENT: identified an argument that was not provided: <tensor> [type.googleapis.com/torch_tpu.root_op_name='",
+   "count": 6,
+   "ids": [
+    "tests.pipelines.anyflow.test_anyflow::AnyFlowPipelineTesterConfig",
+    "tests.pipelines.cogview4.test_cogview4::CogView4PipelineTesterConfig",
+    "tests.pipelines.easyanimate.test_easyanimate::EasyAnimatePipelineTesterConfig",
+    "tests.pipelines.joyimage.test_joyimage_edit::JoyImageEditPipelineTesterConfig",
+    "tests.pipelines.joyimage.test_joyimage_edit_plus::JoyImageEditPlusPipelineTesterConfig",
+    "tests.pipelines.longcat_audio_dit.test_longcat_audio_dit::LongCatAudioDiTPipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/eager",
+   "signature": "TPU output contains non-finite values",
+   "count": 6,
+   "ids": [
+    "tests.pipelines.helios.test_helios::HeliosPipelineTesterConfig",
+    "tests.pipelines.joyimage.test_joyimage_edit_plus::JoyImageEditPlusPipelineTesterConfig",
+    "tests.pipelines.lumina2.test_pipeline_lumina2::Lumina2PipelineTesterConfig",
+    "tests.pipelines.sana.test_sana_sprint::SanaSprintPipelineTesterConfig",
+    "tests.pipelines.sana_video.test_sana_video::SanaVideoPipelineTesterConfig",
+    "tests.pipelines.sana_video.test_sana_video_i2v::SanaImageToVideoPipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "output differs from CPU beyond atol=rtol=N",
+   "count": 4,
+   "ids": [
+    "tests.pipelines.hunyuan_video.test_hunyuan_image2video::HunyuanVideoImageToVideoPipelineTesterConfig",
+    "tests.pipelines.hunyuan_video.test_hunyuan_skyreels_image2video::HunyuanSkyreelsImageToVideoPipelineTesterConfig",
+    "tests.pipelines.sana.test_sana_sprint_img2img::SanaSprintImg2ImgPipelineTesterConfig",
+    "tests.pipelines.sana_video.test_sana_video::SanaVideoPipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "Unsupported: Data-dependent branching",
+   "count": 2,
+   "ids": [
+    "tests.pipelines.hunyuan_video1_5.test_hunyuan_1_5::HunyuanVideo15PipelineTesterConfig",
+    "tests.pipelines.omnigen.test_pipeline_omnigen::OmniGenPipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "BackendCompilerFailed > RuntimeError: Expected all tensors to be on the same device, but found at least two devices, tpu:N and cpu!",
+   "count": 1,
+   "ids": [
+    "tests.pipelines.chroma.test_pipeline_chroma::ChromaPipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "BackendCompilerFailed > RuntimeError: to_copy(): cannot record EventSnapshot during an FX trace",
+   "count": 1,
+   "ids": [
+    "utils.tpu_sweep.extra_configs::DiffusionGemmaConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "RuntimeError: execute(): failed to prepare compiled mode arguments: failed to get buffer from argument tensor: shape=[], strides=[], numel=N, dtype=N, device=cpu, is_contiguous=N, is_cpu=N, is_cuda=N, is_meta=N, storage_",
+   "count": 1,
+   "ids": [
+    "tests.pipelines.latent_diffusion.test_latent_diffusion::LDMTextToImagePipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "SIGABRT in (unknown)",
+   "count": 1,
+   "ids": [
+    "tests.pipelines.glm_image.test_glm_image::GlmImagePipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "SIGSEGV in torch_tpu::(anonymous namespace)::RemoveDataPtrAlias()",
+   "count": 1,
+   "ids": [
+    "tests.pipelines.ltx2.test_pipeline_ltx2_dfr_temporal_refine::LTX2DFRTemporalRefinePipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "TorchTPU fatal: Check failed: traversal->ValidateAndReorderArguments(std::move(argument_refs)) is OK (INVALID_ARGUMENT: identified an argument that was not provided: float32 [type.googleapis.com/torch_tpu.root_op_name='t",
+   "count": 1,
+   "ids": [
+    "tests.pipelines.anyflow.test_anyflow_far::AnyFlowFARPipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "Unsupported: Tensor.tolist() with non-integer tensor",
+   "count": 1,
+   "ids": [
+    "tests.pipelines.qwenimage21.test_qwenimage21::QwenImage21PipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "Unsupported: Unsupported context manager",
+   "count": 1,
+   "ids": [
+    "tests.pipelines.z_image.test_z_image::TestZImagePipeline"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "UserError: Consider annotating your code using torch._check*(). Could not extract specialized integer from data-dependent expression u0 (unhinted: u0).  (Size-like symbols: u0)",
+   "count": 1,
+   "ids": [
+    "tests.pipelines.hidream_image.test_pipeline_hidream::HiDreamImagePipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "UserError: Consider annotating your code using torch._check*(). Could not extract specialized integer from data-dependent expression u0 + N (unhinted: u0 + N).  (Size-like symbols: none)",
+   "count": 1,
+   "ids": [
+    "tests.pipelines.lumina2.test_pipeline_lumina2::Lumina2PipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "UserError: Could not extract specialized integer from data-dependent expression u0 + N (unhinted: u0 + N).  (Size-like symbols: u0)",
+   "count": 1,
+   "ids": [
+    "tests.pipelines.mochi.test_mochi::MochiPipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "UserError: Could not extract specialized integer from data-dependent expression u0 + u1 + u2 + u3 + N (unhinted: u0 + u1 + u2 + u3 + N).  (Size-like symbols: u2, u1, u0, u3)",
+   "count": 1,
+   "ids": [
+    "tests.pipelines.hunyuan_image_21.test_hunyuanimage::HunyuanImagePipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "UserError: Could not extract specialized integer from data-dependent expression u1 + N (unhinted: u1 + N).  (Size-like symbols: none)",
+   "count": 1,
+   "ids": [
+    "tests.pipelines.hunyuan_video.test_hunyuan_video_framepack::HunyuanVideoFramepackPipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/compile",
+   "signature": "UserError: Could not extract specialized integer from data-dependent expression u2*(u0 + N) (unhinted: u2*(u0 + N)).  (Size-like symbols: none)",
+   "count": 1,
+   "ids": [
+    "tests.pipelines.ace_step.test_ace_step::AceStepPipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "smoke/eager",
+   "signature": "SIGSEGV in torch_tpu::(anonymous namespace)::RemoveDataPtrAlias()",
+   "count": 1,
+   "ids": [
+    "tests.pipelines.ltx2.test_pipeline_ltx2_dfr_temporal_refine::LTX2DFRTemporalRefinePipelineTesterConfig"
+   ]
+  },
+  {
+   "suite_mode": "tp/compile",
+   "signature": "RuntimeError: execute(): failed to prepare compiled mode arguments: failed to get buffer from argument tensor: shape=[\u2026], strides=[\u2026], numel=N, dtype=N, device=cpu, is_contiguous=N, is_cpu=N, is_cuda=N, is_meta=N, storag",
+   "count": 1,
+   "ids": [
+    "tests.models.transformers.test_models_transformer_qwenimage:make_tpu_tp_spec"
+   ]
+  }
+ ]
+}

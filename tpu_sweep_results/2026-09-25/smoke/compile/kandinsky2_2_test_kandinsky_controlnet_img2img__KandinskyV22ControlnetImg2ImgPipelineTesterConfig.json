@@ -1,0 +1,35 @@
+{
+ "pipeline": "KandinskyV22ControlnetImg2ImgPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.0872662789770402,
+ "compiled": [
+  "unet",
+  "movq"
+ ],
+ "status": "error",
+ "stage": "tpu_first_call",
+ "error": "RuntimeError: view(): cannot create a view of shape [1, 8, 512] from the input tensor of shape [1, 64, 8, 8] and strides [4096, 1, 512, 64]; consider creating a new tensor using reshape() instead of taking a view",
+ "trace": "Traceback (most recent call last):\n  File \"/mnt/cache/jingya/dev/diffusers/utils/tpu_sweep/smoke_worker.py\", line 164, in smoke\n    _, record[\"tpu_first_call_s\"] = run(tpu_pipe, config)\n                                    ~~~^^^^^^^^^^^^^^^^^^\n  File \"/mnt/cache/jingya/dev/diffusers/utils/tpu_sweep/smoke_worker.py\", line 62, in run\n    output = to_tensor(pipe(**inputs)[0])\n                       ~~~~^^^^^^^^^^\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/utils/_contextlib.py\", line 124, in decorate_context\n    return func(*args, **kwargs)\n  File \"/mnt/cache/jingya/dev/diffusers/src/diffusers/pipelines/kandinsky2_2/pipeline_kandinsky2_2_controlnet_img2img.py\", line 307, in __call__\n    latents = self.movq.encode(image)[\"latents\"]\n              ~~~~~~~~~~~~~~~~^^^^^^^\n  File \"/mnt/cache/jingya/dev/diffusers/src/diffusers/utils/accelerate_utils.py\", line 46, in wrapper\n    return method(self, *args, **kwargs)\n  File \"/mnt/cache/jingya/dev/diffusers/src/diffusers/models/autoencoders/vq_model.py\", line 134, in encode\n    h = self.encoder(x)\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/nn/modules/module.py\", line 1778, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/nn/modules/module.py\", line 1789, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/mnt/cache/jingya/dev/diffusers/src/diffusers/models/autoencoders/vae.py\", line 173, in forward\n    sample = self.mid_block(sample)\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/nn/modules/module.py\", line 1778, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/nn/modules/module.py\", line 1789, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/mnt/cache/jingya/dev/diffusers/src/diffusers/models/unets/unet_2d_blocks.py\", line 746, in forward\n    hidden_states = resnet(hidden_states, temb)\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/nn/modules/module.py\", line 1778, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/nn/modules/module.py\", line 1789, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/mnt/cache/jingya/dev/diffusers/src/diffusers/models/resnet.py\", line 326, in forward\n    hidden_states = self.norm1(hidden_states)\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/nn/modules/module.py\", line 1778, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/nn/modules/module.py\", line 1789, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/nn/modules/normalization.py\", line 334, in forward\n    return F.group_norm(input, self.num_groups, self.weight, self.bias, self.eps)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/cache/jingya/dev/diffusers/.venv/lib/python3.14/site-packages/torch/nn/functional.py\", line 3042, in group_norm\n    return torch.group_norm(\n           ~~~~~~~~~~~~~~~~^\n        input, num_groups, weight, bias, eps, torch.backends.cudnn.enabled\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\nRuntimeError: view(): cannot create a view of shape [1, 8, 512] from the input tensor of shape [1, 64, 8, 8] and strides [4096, 1, 512, 64]; consider creating a new tensor using reshape() instead of taking a view\n",
+ "per_component": {
+  "unet": {
+   "fullgraph": "error",
+   "fullgraph_error": "RuntimeError: view(): cannot create a view of shape [1, 8, 512] from the input tensor of shape [1, 64, 8, 8] and strides [4096, 1, 512, 64]; consider creating a new tensor using reshape() instead of taking a view",
+   "graph_breaks_allowed": "error",
+   "graph_breaks_allowed_error": "RuntimeError: view(): cannot create a view of shape [1, 8, 512] from the input tensor of shape [1, 64, 8, 8] and strides [4096, 1, 512, 64]; consider creating a new tensor using reshape() instead of taking a view"
+  },
+  "movq": {
+   "fullgraph": "error",
+   "fullgraph_error": "RuntimeError: view(): cannot create a view of shape [1, 8, 512] from the input tensor of shape [1, 64, 8, 8] and strides [4096, 1, 512, 64]; consider creating a new tensor using reshape() instead of taking a view",
+   "graph_breaks_allowed": "error",
+   "graph_breaks_allowed_error": "RuntimeError: view(): cannot create a view of shape [1, 8, 512] from the input tensor of shape [1, 64, 8, 8] and strides [4096, 1, 512, 64]; consider creating a new tensor using reshape() instead of taking a view"
+  }
+ },
+ "id": "tests.pipelines.kandinsky2_2.test_kandinsky_controlnet_img2img::KandinskyV22ControlnetImg2ImgPipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 7.04749514098512,
+ "family": "kandinsky2_2",
+ "log": "logs/smoke/compile/kandinsky2_2_test_kandinsky_controlnet_img2img__KandinskyV22ControlnetImg2ImgPipelineTesterConfig.log",
+ "chip": 1,
+ "job_wall_s": 11.761863633990288
+}

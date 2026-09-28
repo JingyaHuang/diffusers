@@ -1,0 +1,26 @@
+{
+ "pipeline": "DiffusionGemmaPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "matmul_precision": "default",
+ "cpu_time_s": 0.43967430500015325,
+ "tpu_first_call_s": 4.762594540999999,
+ "tpu_time_s": 0.22506134399918665,
+ "output_shape": [
+  1,
+  64
+ ],
+ "finite": true,
+ "max_abs_diff": 238608.0,
+ "mean_abs_diff": 79353.3125,
+ "ref_max_abs": 261307.0,
+ "reason": "output differs from CPU beyond atol=rtol=0.1",
+ "status": "fail",
+ "id": "utils.tpu_sweep.extra_configs::DiffusionGemmaConfig",
+ "mode": "eager",
+ "wall_s": 42.92624799999976,
+ "family": "diffusion_gemma",
+ "log": "logs/smoke/eager/utils_tpu_sweep_extra_configs__DiffusionGemmaConfig.log",
+ "chip": 5,
+ "job_wall_s": 47.487712387999636
+}

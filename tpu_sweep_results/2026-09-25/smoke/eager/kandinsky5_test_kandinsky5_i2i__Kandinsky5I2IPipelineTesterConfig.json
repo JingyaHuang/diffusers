@@ -1,0 +1,27 @@
+{
+ "pipeline": "Kandinsky5I2IPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 1.9439525520429015,
+ "tpu_first_call_s": 20.644785600015894,
+ "tpu_time_s": 2.604987136030104,
+ "output_shape": [
+  1,
+  3,
+  1024,
+  1024
+ ],
+ "finite": true,
+ "max_abs_diff": 0.22527599334716797,
+ "mean_abs_diff": 0.005102327559143305,
+ "ref_max_abs": 1.0,
+ "reason": "output differs from CPU beyond atol=rtol=0.1",
+ "status": "fail",
+ "id": "tests.pipelines.kandinsky5.test_kandinsky5_i2i::Kandinsky5I2IPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 44.977519375039265,
+ "family": "kandinsky5",
+ "log": "logs/smoke/eager/kandinsky5_test_kandinsky5_i2i__Kandinsky5I2IPipelineTesterConfig.log",
+ "chip": 1,
+ "job_wall_s": 53.118508428975474
+}

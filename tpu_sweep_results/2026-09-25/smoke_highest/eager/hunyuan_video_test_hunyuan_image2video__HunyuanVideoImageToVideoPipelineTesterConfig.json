@@ -1,0 +1,28 @@
+{
+ "pipeline": "HunyuanVideoImageToVideoPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "matmul_precision": "highest",
+ "cpu_time_s": 0.050768109038472176,
+ "tpu_first_call_s": 14.997304261953104,
+ "tpu_time_s": 0.10740173899102956,
+ "output_shape": [
+  1,
+  5,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.07617145776748657,
+ "mean_abs_diff": 0.008936195634305477,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.hunyuan_video.test_hunyuan_image2video::HunyuanVideoImageToVideoPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 26.048212231020443,
+ "family": "hunyuan_video",
+ "log": "logs/smoke_highest/eager/hunyuan_video_test_hunyuan_image2video__HunyuanVideoImageToVideoPipelineTesterConfig.log",
+ "chip": 1,
+ "job_wall_s": 30.210878694953863
+}

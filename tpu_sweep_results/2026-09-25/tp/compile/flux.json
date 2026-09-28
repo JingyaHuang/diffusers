@@ -1,0 +1,43 @@
+{
+ "model": "FluxTransformer2DModel",
+ "tp_size": 8,
+ "init_dict": {
+  "patch_size": 1,
+  "in_channels": 4,
+  "num_layers": 1,
+  "num_single_layers": 1,
+  "attention_head_dim": 16,
+  "num_attention_heads": 8,
+  "joint_attention_dim": 32,
+  "pooled_projection_dim": 32,
+  "axes_dims_rope": [
+   4,
+   4,
+   8
+  ]
+ },
+ "atol": 0.1,
+ "rtol": 0.1,
+ "num_params": 949476,
+ "single_chip_time_s": 0.278097496018745,
+ "num_sharded_params": 34,
+ "tp_first_call_s": 6.338694147998467,
+ "fullgraph": true,
+ "tp_time_s": 0.005025480000767857,
+ "output_shape": [
+  1,
+  16,
+  4
+ ],
+ "finite": true,
+ "max_abs_diff_vs_single_chip": 0.0,
+ "max_abs_diff_vs_cpu": 0.004450768232345581,
+ "single_chip_max_abs_diff_vs_cpu": 0.004450768232345581,
+ "status": "pass",
+ "id": "tests.models.transformers.test_models_transformer_flux:make_tpu_tp_spec",
+ "mode": "compile",
+ "wall_s": 9.6977367340005,
+ "name": "flux",
+ "log": "logs/tp/compile/flux.log",
+ "job_wall_s": 30.864710806985386
+}

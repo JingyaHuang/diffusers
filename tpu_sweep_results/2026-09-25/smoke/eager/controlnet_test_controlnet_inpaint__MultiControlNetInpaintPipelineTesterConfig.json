@@ -1,0 +1,26 @@
+{
+ "pipeline": "StableDiffusionControlNetInpaintPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.24480992602184415,
+ "tpu_first_call_s": 4.039279462012928,
+ "tpu_time_s": 0.21583632699912414,
+ "output_shape": [
+  1,
+  3,
+  64,
+  64
+ ],
+ "finite": true,
+ "max_abs_diff": 0.006821930408477783,
+ "mean_abs_diff": 0.0010042710928246379,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.controlnet.test_controlnet_inpaint::MultiControlNetInpaintPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 17.605011817009654,
+ "family": "controlnet",
+ "log": "logs/smoke/eager/controlnet_test_controlnet_inpaint__MultiControlNetInpaintPipelineTesterConfig.log",
+ "chip": 1,
+ "job_wall_s": 26.047759201028384
+}

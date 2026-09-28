@@ -1,0 +1,26 @@
+{
+ "pipeline": "Krea2Pipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.07546511600958183,
+ "tpu_first_call_s": 2.2489774569985457,
+ "tpu_time_s": 0.08925974898738787,
+ "output_shape": [
+  1,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.0037350058555603027,
+ "mean_abs_diff": 0.0006933945114724338,
+ "ref_max_abs": 0.7537766695022583,
+ "status": "pass",
+ "id": "tests.pipelines.krea2.test_krea2::Krea2PipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 10.583003027015366,
+ "family": "krea2",
+ "log": "logs/smoke/eager/krea2_test_krea2__Krea2PipelineTesterConfig.log",
+ "chip": 2,
+ "job_wall_s": 16.70753454999067
+}

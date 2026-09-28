@@ -1,0 +1,27 @@
+{
+ "pipeline": "MochiPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.04725638998206705,
+ "tpu_first_call_s": 7.262267365993466,
+ "tpu_time_s": 1.2804711509961635,
+ "output_shape": [
+  1,
+  7,
+  3,
+  16,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.005636125802993774,
+ "mean_abs_diff": 0.001020339666865766,
+ "ref_max_abs": 0.7525177001953125,
+ "status": "pass",
+ "id": "tests.pipelines.mochi.test_mochi::MochiPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 20.660939103981946,
+ "family": "mochi",
+ "log": "logs/smoke/eager/mochi_test_mochi__MochiPipelineTesterConfig.log",
+ "chip": 1,
+ "job_wall_s": 25.47106899804203
+}

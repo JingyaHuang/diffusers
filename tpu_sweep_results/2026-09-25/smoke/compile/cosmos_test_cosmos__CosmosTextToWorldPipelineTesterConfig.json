@@ -1,0 +1,32 @@
+{
+ "pipeline": "CosmosTextToWorldPipelineWrapper",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.14956363703822717,
+ "compiled": [
+  "vae.decode/encode",
+  "transformer",
+  "safety_checker"
+ ],
+ "tpu_first_call_s": 16.220121872029267,
+ "tpu_time_s": 0.05094679998001084,
+ "output_shape": [
+  1,
+  9,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.019607841968536377,
+ "mean_abs_diff": 0.0016755459364503622,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.cosmos.test_cosmos::CosmosTextToWorldPipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 24.583454815961886,
+ "family": "cosmos",
+ "log": "logs/smoke/compile/cosmos_test_cosmos__CosmosTextToWorldPipelineTesterConfig.log",
+ "chip": 3,
+ "job_wall_s": 31.06600705801975
+}

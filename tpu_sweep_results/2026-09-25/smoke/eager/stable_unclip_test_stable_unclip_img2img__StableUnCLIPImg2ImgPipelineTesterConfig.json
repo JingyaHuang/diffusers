@@ -1,0 +1,26 @@
+{
+ "pipeline": "StableUnCLIPImg2ImgPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.13114962802501395,
+ "tpu_first_call_s": 3.0182166320155375,
+ "tpu_time_s": 0.73976985597983,
+ "output_shape": [
+  1,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.026626139879226685,
+ "mean_abs_diff": 0.005159833934158087,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.stable_unclip.test_stable_unclip_img2img::StableUnCLIPImg2ImgPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 13.233485242992174,
+ "family": "stable_unclip",
+ "log": "logs/smoke/eager/stable_unclip_test_stable_unclip_img2img__StableUnCLIPImg2ImgPipelineTesterConfig.log",
+ "chip": 3,
+ "job_wall_s": 20.24245381797664
+}

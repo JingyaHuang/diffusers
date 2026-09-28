@@ -1,0 +1,31 @@
+{
+ "pipeline": "LTXConditionPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.047707858961075544,
+ "compiled": [
+  "vae.decode/encode",
+  "transformer"
+ ],
+ "tpu_first_call_s": 14.210728741018102,
+ "tpu_time_s": 0.041993848979473114,
+ "output_shape": [
+  1,
+  9,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.0062223076820373535,
+ "mean_abs_diff": 0.0009786704322323203,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.ltx.test_ltx_condition::LTXConditionPipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 22.671332250989508,
+ "family": "ltx",
+ "log": "logs/smoke/compile/ltx_test_ltx_condition__LTXConditionPipelineTesterConfig.log",
+ "chip": 1,
+ "job_wall_s": 28.721298355027102
+}

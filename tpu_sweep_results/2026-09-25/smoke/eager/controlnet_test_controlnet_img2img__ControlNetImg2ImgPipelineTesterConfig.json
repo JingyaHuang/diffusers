@@ -1,0 +1,26 @@
+{
+ "pipeline": "StableDiffusionControlNetImg2ImgPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.0914292280212976,
+ "tpu_first_call_s": 3.3960831020376645,
+ "tpu_time_s": 0.08047669898951426,
+ "output_shape": [
+  1,
+  3,
+  64,
+  64
+ ],
+ "finite": true,
+ "max_abs_diff": 0.011236488819122314,
+ "mean_abs_diff": 0.0013151572784408927,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.controlnet.test_controlnet_img2img::ControlNetImg2ImgPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 14.243844037991948,
+ "family": "controlnet",
+ "log": "logs/smoke/eager/controlnet_test_controlnet_img2img__ControlNetImg2ImgPipelineTesterConfig.log",
+ "chip": 2,
+ "job_wall_s": 21.211401553009637
+}

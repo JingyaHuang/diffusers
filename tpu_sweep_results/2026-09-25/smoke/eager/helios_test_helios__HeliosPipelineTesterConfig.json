@@ -1,0 +1,29 @@
+{
+ "pipeline": "HeliosPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "matmul_precision": "default",
+ "cpu_time_s": 0.10387996403733268,
+ "tpu_first_call_s": 2.2593930570292287,
+ "tpu_time_s": 0.10958013898925856,
+ "output_shape": [
+  1,
+  33,
+  3,
+  16,
+  16
+ ],
+ "finite": false,
+ "max_abs_diff": null,
+ "mean_abs_diff": null,
+ "ref_max_abs": 0.7292386293411255,
+ "reason": "TPU output contains non-finite values",
+ "status": "fail",
+ "id": "tests.pipelines.helios.test_helios::HeliosPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 13.74664920201758,
+ "family": "helios",
+ "log": "logs/smoke/eager/helios_test_helios__HeliosPipelineTesterConfig.log",
+ "chip": 3,
+ "job_wall_s": 19.05165300803492
+}

@@ -1,0 +1,26 @@
+{
+ "pipeline": "LongCatAudioDiTPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.07661541504785419,
+ "tpu_first_call_s": 3.761281236016657,
+ "tpu_time_s": 0.07950220903148875,
+ "output_shape": [
+  1,
+  1,
+  4800
+ ],
+ "finite": false,
+ "max_abs_diff": null,
+ "mean_abs_diff": null,
+ "ref_max_abs": 2.522935152053833,
+ "reason": "TPU output contains non-finite values",
+ "status": "fail",
+ "id": "tests.pipelines.longcat_audio_dit.test_longcat_audio_dit::LongCatAudioDiTPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 15.406151107978076,
+ "family": "longcat_audio_dit",
+ "log": "logs/smoke/eager/longcat_audio_dit_test_longcat_audio_dit__LongCatAudioDiTPipelineTesterConfig.log",
+ "chip": 6,
+ "job_wall_s": 21.227078938973136
+}

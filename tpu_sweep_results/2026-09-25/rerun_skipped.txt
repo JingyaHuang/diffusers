@@ -1,0 +1,6 @@
+compile tests.pipelines.stable_audio.test_stable_audio::StableAudioPipelineTesterConfig
+eager tests.pipelines.ace_step.test_ace_step::AceStepPipelineTesterConfig
+eager tests.pipelines.chronoedit.test_chronoedit::ChronoEditPipelineTesterConfig
+eager tests.pipelines.consisid.test_consisid::ConsisIDPipelineTesterConfig
+eager tests.pipelines.helios.test_helios::HeliosPipelineTesterConfig
+eager tests.pipelines.stable_audio.test_stable_audio::StableAudioPipelineTesterConfig

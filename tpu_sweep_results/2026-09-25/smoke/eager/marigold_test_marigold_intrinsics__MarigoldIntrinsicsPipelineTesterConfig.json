@@ -1,0 +1,26 @@
+{
+ "pipeline": "MarigoldIntrinsicsPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.0664595189737156,
+ "tpu_first_call_s": 1.896575511957053,
+ "tpu_time_s": 0.073292859015055,
+ "output_shape": [
+  2,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.0062479376792907715,
+ "mean_abs_diff": 0.0008252731640823185,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.marigold.test_marigold_intrinsics::MarigoldIntrinsicsPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 10.396455291018356,
+ "family": "marigold",
+ "log": "logs/smoke/eager/marigold_test_marigold_intrinsics__MarigoldIntrinsicsPipelineTesterConfig.log",
+ "chip": 4,
+ "job_wall_s": 16.823333133012056
+}

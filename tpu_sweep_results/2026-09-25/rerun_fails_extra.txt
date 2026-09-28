@@ -1,0 +1,2 @@
+eager utils.tpu_sweep.extra_configs::DiffusionGemmaConfig
+eager utils.tpu_sweep.extra_configs::LEditsPPStableDiffusionXLConfig

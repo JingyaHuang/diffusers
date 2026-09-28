@@ -1,0 +1,27 @@
+{
+ "pipeline": "LTXLatentUpsamplePipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.020571578992530704,
+ "tpu_first_call_s": 1.196018852002453,
+ "tpu_time_s": 0.02614287898177281,
+ "output_shape": [
+  1,
+  5,
+  3,
+  32,
+  32
+ ],
+ "finite": true,
+ "max_abs_diff": 0.015376448631286621,
+ "mean_abs_diff": 0.0021482561714947224,
+ "ref_max_abs": 1.0,
+ "status": "pass",
+ "id": "tests.pipelines.ltx.test_ltx_latent_upsample::LTXLatentUpsamplePipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 8.19483134400798,
+ "family": "ltx",
+ "log": "logs/smoke/eager/ltx_test_ltx_latent_upsample__LTXLatentUpsamplePipelineTesterConfig.log",
+ "chip": 1,
+ "job_wall_s": 14.246245921996888
+}

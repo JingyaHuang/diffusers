@@ -1,0 +1,25 @@
+{
+ "pipeline": "ShapEPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.0190586990211159,
+ "tpu_first_call_s": 1.9839038220234215,
+ "tpu_time_s": 0.019998371950350702,
+ "output_shape": [
+  1,
+  32,
+  16
+ ],
+ "finite": true,
+ "max_abs_diff": 0.018485546112060547,
+ "mean_abs_diff": 0.003797483630478382,
+ "ref_max_abs": 1.0000001192092896,
+ "status": "pass",
+ "id": "tests.pipelines.shap_e.test_shap_e::ShapEPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 10.139365812996402,
+ "family": "shap_e",
+ "log": "logs/smoke/eager/shap_e_test_shap_e__ShapEPipelineTesterConfig.log",
+ "chip": 0,
+ "job_wall_s": 15.684000898967497
+}

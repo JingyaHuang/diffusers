@@ -1,0 +1,35 @@
+{
+ "pipeline": "LTX2Pipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "cpu_time_s": 0.05445086699910462,
+ "compiled": [
+  "vae.decode/encode",
+  "audio_vae",
+  "connectors",
+  "transformer",
+  "vocoder"
+ ],
+ "tpu_first_call_s": 20.53501153201796,
+ "tpu_time_s": 0.07512276899069548,
+ "output_shape": [
+  1,
+  5,
+  3,
+  32,
+  32
+ ],
+ "finite": false,
+ "max_abs_diff": null,
+ "mean_abs_diff": null,
+ "ref_max_abs": 1.0,
+ "reason": "TPU output contains non-finite values",
+ "status": "fail",
+ "id": "tests.pipelines.ltx2.test_ltx2::LTX2PipelineTesterConfig",
+ "mode": "compile",
+ "wall_s": 35.021088279027026,
+ "family": "ltx2",
+ "log": "logs/smoke/compile/ltx2_test_ltx2__LTX2PipelineTesterConfig.log",
+ "chip": 6,
+ "job_wall_s": 41.75120355904801
+}

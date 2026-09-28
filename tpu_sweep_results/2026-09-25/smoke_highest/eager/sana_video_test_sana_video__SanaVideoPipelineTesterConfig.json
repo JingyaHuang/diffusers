@@ -1,0 +1,29 @@
+{
+ "pipeline": "SanaVideoPipeline",
+ "atol": 0.1,
+ "rtol": 0.1,
+ "matmul_precision": "highest",
+ "cpu_time_s": 0.08177629899000749,
+ "tpu_first_call_s": 10.69149361597374,
+ "tpu_time_s": 0.1257355980342254,
+ "output_shape": [
+  1,
+  9,
+  3,
+  32,
+  32
+ ],
+ "finite": false,
+ "max_abs_diff": null,
+ "mean_abs_diff": null,
+ "ref_max_abs": 0.8460521101951599,
+ "reason": "TPU output contains non-finite values",
+ "status": "fail",
+ "id": "tests.pipelines.sana_video.test_sana_video::SanaVideoPipelineTesterConfig",
+ "mode": "eager",
+ "wall_s": 20.975136765977368,
+ "family": "sana_video",
+ "log": "logs/smoke_highest/eager/sana_video_test_sana_video__SanaVideoPipelineTesterConfig.log",
+ "chip": 2,
+ "job_wall_s": 25.234353362990078
+}
